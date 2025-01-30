@@ -18,5 +18,5 @@ export default defineConfig({
     }
   },
   plugins: [tailwindcss()],
-  base: '/macqueen006/'
+  base: '/semech-blog/'
 });
