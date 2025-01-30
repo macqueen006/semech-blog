@@ -276,7 +276,7 @@ body {
     }
 
     .news-date {
-        @apply flex items-center gap-x-[12px];
+        @apply flex items-center gap-[12px];
     }
 
     .line {
@@ -470,6 +470,10 @@ body {
         @apply text-sm font-normal leading-[120%];
     }
 
+    .subtitle  {
+        @apply text-[12px] leading-[150%];
+    }
+
     /*News Letter*/
     .newsletter {
         @apply flex flex-col items-center justify-start gap-y-[20px] gap-x-[40px]
@@ -633,8 +637,7 @@ body {
     }
 
     .footer-right {
-        @apply grid auto-cols-fr grid-cols-2 xs:flex grid-rows-[auto_auto] gap-[50px] xs:gap-x-[100px] min-[769px]:gap-x-[140px]
-        items-start;
+        @apply grid auto-cols-fr grid-cols-2 xs:flex grid-rows-[auto_auto] gap-[50px] xs:gap-x-[100px] min-[769px]:gap-x-[140px];
     }
 
     .menu-block {

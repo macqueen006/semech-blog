@@ -13,7 +13,8 @@ export default defineConfig({
         contact: "contact.html",
         news: "news.html",
         policy: "privacy-policy.html",
-        terms: "terms-and-conditions.html"
+        terms: "terms-and-conditions.html",
+        single: "single-blog.html"
       }
     }
   },
