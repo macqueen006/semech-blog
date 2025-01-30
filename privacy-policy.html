@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=switzer@200,300,400,500,600,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+</head>
+<body>
+<div>
+    <div role="list" class="topbar">
+        <div role="listitem">
+            <a href="#" class="top-menu">Business</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">World News</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Technology</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Sports</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Health</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Culture</a>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="nav-wrap">
+            <div class="nav-data">
+                <a href="index.html" class="brand">
+                    Semech
+                </a>
+                <div class="nav-right h-[32.2px]">
+                    <div class="inline-rel">
+                        <a class="flex gap-1 items-center text-sm cursor-pointer search-btn"
+                           role="button"
+                           aria-haspopup="dialog"
+                           aria-label="Open cart"
+                           href="#"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 aria-hidden="true" role="img" class="w-5 h-5 bg-transparent" style="" width="1em"
+                                 height="1em"
+                                 viewBox="0 0 256 256">
+                                <g fill="text-body">
+                                    <path d="M192 112a80 80 0 1 1-80-80a80 80 0 0 1 80 80Z" opacity=".2"></path>
+                                    <path d="m229.66 218.34l-50.06-50.06a88.21 88.21 0 1 0-11.32 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72a72.08 72.08 0 0 1-72-72Z"></path>
+                                </g>
+                            </svg>
+                        </a>
+                        <div class="modal-overlay hidden">
+                            <div role="dialog" class="modal-container rounded-sm">
+                                <div class="modal-header">
+                                    <h4>Search</h4>
+                                    <!-- Close Button -->
+                                    <a class="w-4 h-4 inline-block search-close cursor-pointer" role="button"
+                                       aria-label="Close cart">
+                                        <svg width="16px" height="16px" viewBox="0 0 16 16">
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g fill-rule="nonzero" fill="#333333">
+                                                    <polygon
+                                                            points="6.23223305 8 0.616116524 13.6161165 2.38388348 15.3838835 8 9.76776695 13.6161165 15.3838835 15.3838835 13.6161165 9.76776695 8 15.3838835 2.38388348 13.6161165 0.616116524 8 6.23223305 2.38388348 0.616116524 0.616116524 2.38388348 6.23223305 8"></polygon>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="modal-content-wrapper">
+                                    <div>
+                                        <div>
+                                            <form method="POST" action="" class="flex flex-col xs:flex-row gap-[15px]">
+                                                <div class="w-full">
+                                                    <label for="search" class="mb-[5px]"></label>
+                                                    <input class="rounded-sm border py-[11px] px-[27px] focus:outline-0 w-full"
+                                                           name="email" id="search"
+                                                           placeholder="Enter what you are looking for..." type="text"/>
+                                                </div>
+                                                <input type="submit"
+                                                       class="py-[11px] px-[27px] cursor-pointer bg-secondary text-white rounded-sm transition-colors duration-300 ease-in-out hover:bg-title"
+                                                       value="SEARCH"/>
+                                            </form>
+                                            <div class="success-message hidden">
+                                                <div>Thank you! Your submission has been received!</div>
+                                            </div>
+                                            <div class="error-message hidden">
+                                                <div>
+                                                    Oops! Something went wrong while submitting the form.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hidden min-[767px]:block">
+                        <a href="#" class="nav-btn">Subscribe</a>
+                    </div>
+                    <div class="nav-button">
+                        <!-- set the display to block in the css -->
+                        <div class="top-line"></div>
+                        <div class="middle-line"></div>
+                        <div class="bottom-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-overlay">
+                <nav role="navigation" class="nav-menu">
+                    <a href="/about.html" class="nav-link">About Us</a>
+                    <a href="/news.html" class="nav-link">News</a>
+                    <a href="/authors.html" class="nav-link current">Authors</a>
+                    <a href="/contact.html" class="nav-link">Contact</a>
+                    <div class="nav-line"></div>
+                    <div class="mobile-show">
+                        <a href="#" class="nav-btn">Subscribe</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-wrap">
+    <section class="title-section">
+        <div class="hero-container">
+            <div class="title-wrap">
+                <h1 class="main-title">PRIVACY POLICY</h1>
+            </div>
+        </div>
+    </section>
+    <section class="content-section pb-mobile-portrait xmd:pb-mobile-landing xlg:pb-desktop">
+        <div class="hero-container">
+            <div class="flex flex-col gap-[40px]">
+                <div>
+                    <div class="flex flex-col gap-[15px]">
+                        <p>Quisque a tincidunt adipiscing amet pretium cursus hac. Vitae consequat
+                            ullamcorper scelerisque neque aliquet. Tempus, at et tempus metus. Integer auctor proin
+                            donec
+                            aenean in vitae augue donec. Dolor vulputate sed nisi fermentum, quis nullam suspendisse
+                            ullamcorper at. Mi purus quisque sollicitudin scelerisque cras vitae. Etiam nunc, senectus
+                            purus
+                            facilisi eu. Pretium cras viverra phasellus in. Tellus mattis gravida at proin netus magna
+                            elit
+                            at nunc. Rutrum montes, gravida diam nibh pellentesque. Est nunc sed quis ipsum blandit non
+                            augue amet. Amet, nisi, at tristique condimentum convallis. Tortor viverra viverra risus
+                            dui. At
+                            feugiat donec nisl diam nisi neque, mattis mattis.
+                        </p>
+                        <p>Ultrices ultrices quam laoreet nec eleifend. Porta mattis mauris sodales tincidunt lectus a.
+                            Sed justo morbi eget ac pretium, mi, donec. Ut hendrerit pretium nisi, consectetur.
+                            Imperdiet vivamus nunc et, vitae fermentum, a tellus ullamcorper. Hac eu faucibus sit urna
+                            quam quis. Porta amet faucibus euismod sed. Nec, at pulvinar et vitae. Vel, egestas
+                            sagittis, aliquam, nunc, elementum vulputate enim, interdum. Diam quam scelerisque pharetra,
+                            eget tincidunt mattis semper nunc. Faucibus quis fringilla fermentum pellentesque porttitor
+                            malesuada viverra neque, sapien. Eu, sagittis diam congue quam sed diam, integer
+                            fringilla.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">What information do we collect?</h3>
+                    <div class="flex flex-col gap-[40px]">
+                        <p>Ultrices ultrices quam laoreet nec eleifend. Porta mattis mauris sodales
+                            tincidunt lectus a. Sed justo morbi eget ac pretium, mi, donec. Ut hendrerit pretium nisi,
+                            consectetur. Imperdiet vivamus nunc et, vitae fermentum, a tellus ullamcorper.
+                        </p>
+                        <p>Enim, lacus, sed interdum tellus ullamcorper adipiscing. Aliquam est rhoncus a leo risus sit
+                            nulla facilisi. Nulla cursus tortor velit vitae molestie magnis quis. Velit elit augue nulla
+                            etiam. Dui dui augue egestas convallis eleifend neque, amet lacus. Condimentum sapien ut
+                            neque, sit. Dui pellentesque nec sed at eu sit sodales commodo, euismod. Pretium purus elit
+                            mattis duis. Vitae sit nunc amet nunc. Scelerisque morbi malesuada libero at massa ac. Nisi
+                            et, et pellentesque at arcu. Congue orci cras mauris mauris sed etiam. Vulputate morbi hac
+                            est est ut volutpat. Rhoncus habitant scelerisque vulputate rhoncus. Arcu neque, est, ut
+                            mauris pulvinar elementum.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">How do we use your information?</h3>
+                    <p>Enim, lacus, sed interdum tellus ullamcorper adipiscing. Aliquam est rhoncus a leo risus sit
+                        nulla facilisi. Nulla cursus tortor velit vitae molestie magnis quis. Velit elit augue nulla
+                        etiam. Dui dui augue egestas convallis eleifend neque, amet lacus. Condimentum sapien ut neque,
+                        sit. Dui pellentesque nec sed at eu sit sodales commodo, euismod. Pretium purus elit mattis
+                        duis. Vitae sit nunc amet nunc. Scelerisque morbi malesuada libero at massa ac. Nisi et, et
+                        pellentesque at arcu. Congue orci cras mauris mauris sed etiam. Vulputate morbi hac est est ut
+                        volutpat. Rhoncus habitant scelerisque vulputate rhoncus. Arcu neque, est, ut mauris pulvinar
+                        elementum.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">How long do we keep your information?</h3>
+                    <div class="flex flex-col gap-[40px]">
+                        <p>Ultrices ultrices quam laoreet nec eleifend. Porta mattis mauris sodales
+                            tincidunt lectus a. Sed justo morbi eget ac pretium, mi, donec. Ut hendrerit pretium nisi,
+                            consectetur. Imperdiet vivamus nunc et, vitae fermentum, a tellus ullamcorper.
+                        </p>
+                        <ul role="list" class="policy-list">
+                            <li class="policy-list-item">Porttitor sedameta semper egestas egestas miut adipiscing
+                                pharetra commodo
+                            </li>
+                            <li class="policy-list-item">Euismod diam pulvinar lectus aliquam nulla arcu porta
+                                condimentum rhoncus
+                            </li>
+                            <li class="policy-list-item">Nulla quismi nullaet libero odioa fames senectus placerat nunc
+                                adivsit morbi
+                            </li>
+                            <li class="policy-list-item">Aliquet molestie dignissim lorem cursus pellentesque inut
+                                dictumvel adipiscing
+                            </li>
+                        </ul>
+                        <p>Viverra blandit velit platea urna dictumst enim suspendisse. Scelerisque est cras urna
+                            maecenas. Risus pulvinar arcu ut at senectus. Sem porta velit turpis pulvinar felis donec
+                            pulvinar. Lectus at euismod congue aliquet.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">What are your privacy rights?</h3>
+                    <div class="flex flex-col gap-[40px]">
+                        <p>Justo, neque ut lacus, tincidunt ligula viverra et nibh elit. Id arcu
+                            augue egestas tincidunt aenean ipsum. Eros, turpis dignissim venenatis faucibus mauris.
+                            Dolor
+                            vitae sed facilisis condimentum gravida. Amet dignissim duis nec purus phasellus fermentum,
+                            convallis. Libero ut tincidunt nibh nec, at arcu id. Velit suspendisse eu nibh lacus.
+                        </p>
+                        <p>Nulla sodales vitae nunc, nisl elementum duis sapien pellentesque. Ut arcu placerat tellus
+                            orci ultricies pretium malesuada risus pretium. Felis fermentum, amet, eu elit leo phasellus
+                            porttitor. Mi viverra sed ut maecenas aliquam erat. Sed lorem aenean netus nibh quisque
+                            morbi. Et, amet, tellus bibendum quam. Mauris duis elit convallis eu nibh integer viverra
+                            pharetra tincidunt. Justo eu scelerisque et justo morbi lectus. Urna nullam sed ultrices
+                            amet ornare interdum pulvinar lobortis dui. Lacinia morbi et.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">How do we keep your information safe?</h3>
+                    <p>Nulla sodales vitae nunc, nisl elementum duis sapien pellentesque. Ut arcu placerat tellus orci
+                        ultricies pretium malesuada risus pretium. Felis fermentum, amet, eu elit leo phasellus
+                        porttitor. Mi viverra sed ut maecenas aliquam erat. Sed lorem aenean netus nibh quisque morbi.
+                        Et, amet, tellus bibendum quam. Mauris duis elit convallis eu nibh integer viverra pharetra
+                        tincidunt. Justo eu scelerisque et justo morbi lectus. Urna nullam sed ultrices amet ornare
+                        interdum pulvinar lobortis dui. Lacinia morbi et.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section class="footer">
+    <!-- Marquee -->
+    <div class="footer-slider">
+        <div class="footer-autoscroll">
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+        </div>
+    </div>
+    <!-- End Marquee -->
+    <div class="footer-top">
+        <div class="section-container">
+            <div class="footer-wrap">
+                <div class="footer-block">
+                    <div class="footer-left">
+                        <h5 class="text-white">
+                            Subscribe to our updates for timely information, helpful tips,
+                            and special announcements.
+                        </h5>
+                        <div class="footer-form w-form">
+                            <form method="POST" action="">
+                                <label for="Email-Address" class="mb-[5px]"></label>
+                                <input class="footer-field" name="Email-Address"
+                                       placeholder="Enter your e-mail..." type="email" id="Email-Address"/>
+                                <input type="submit" class="primary-button" value="SUBSCRIBE"/>
+                                <p class="footer-small">
+                                    By subscribing to our newsletter, you agree to and
+                                    acknowledge that you have read our Privacy Policy and
+                                    Terms &amp; Conditions.
+                                </p>
+                            </form>
+                            <div class="success-message hidden">
+                                <div>Thank you! Your submission has been received!</div>
+                            </div>
+                            <div class="error-message hidden">
+                                <div>
+                                    Oops! Something went wrong while submitting the form.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <div class="menu-block">
+                            <div class="menu-title">PAGES</div>
+                            <div class="menu-list">
+                                <a href="/about.html" class="footer-link current">About us</a>
+                                <a href="/news.html" class="footer-link">News</a>
+                                <a href="/authors.html" class="footer-link">Authors</a>
+                                <a href="#" class="footer-link">Newsletter Plans</a>
+                                <a href="/contact.html" class="footer-link">Contact us</a>
+                            </div>
+                        </div>
+                        <div class="menu-block">
+                            <div class="menu-title">CATEGORIES</div>
+                            <div>
+                                <div role="list" class="menu-list ">
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Business</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">World News</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Technology</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Sports</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Health</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Culture</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-block">
+                            <div class="menu-title">RESOURCES</div>
+                            <div class="menu-list">
+                                <a href="/privacy-policy.html" class="footer-link">Privacy Policy</a>
+                                <a href="/advertise.html" class="footer-link">Advertise</a>
+                                <a href="/terms-and-conditions.html" class="footer-link">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="body-small text-font-color">
+                        Designed by
+                        <a href="#" target="_blank" class="footer-link underline">Macqueen006</a>. Powered by
+                        <a href="#" target="_blank" class="footer-link underline">Magnet</a>.
+                    </p>
+                    <div class="footer-copyright">
+                        <div class="footer-social">
+                            <a href="https://twitter.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458d7a2287a53a49a62cb8_ic-twitter.svg"
+                                        loading="lazy"
+                                        alt="Twitter X Icon"/>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458d9610f7c34789422f5d_ic-facebook.svg"
+                                        loading="lazy"
+                                        alt="Facebook Icon"/>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458da3661c87c6c9729e5a_ic-youtube.svg"
+                                        loading="lazy"
+                                        alt="Youtube Icon"/>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458db10362151aa24dfed3_ic-insta.svg"
+                                        loading="lazy"
+                                        width="17"
+                                        alt="Instagram Icon"/>
+                            </a>
+                            <a href="https://rss.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458e7b28a09bbe18f99364_rass.svg"
+                                        loading="lazy"
+                                        alt="Rss Icon"/>
+                            </a>
+                            <a href="https://www.reddit.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458e06feb49074e11880d0_vector.svg"
+                                        loading="lazy"
+                                        alt="Discord Icon"/>
+                            </a>
+                        </div>
+                        <p class="body-small">© 2025 Semech.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="module" src="./src/assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=switzer@200,300,400,500,600,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+</head>
+<body>
+<div>
+    <div role="list" class="topbar">
+        <div role="listitem">
+            <a href="#" class="top-menu">Business</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">World News</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Technology</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Sports</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Health</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Culture</a>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="nav-wrap">
+            <div class="nav-data">
+                <a href="index.html" class="brand">
+                    Semech
+                </a>
+                <div class="nav-right h-[32.2px]">
+                    <div class="inline-rel">
+                        <a class="flex gap-1 items-center text-sm cursor-pointer search-btn"
+                           role="button"
+                           aria-haspopup="dialog"
+                           aria-label="Open cart"
+                           href="#"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 aria-hidden="true" role="img" class="w-5 h-5 bg-transparent" style="" width="1em"
+                                 height="1em"
+                                 viewBox="0 0 256 256">
+                                <g fill="text-body">
+                                    <path d="M192 112a80 80 0 1 1-80-80a80 80 0 0 1 80 80Z" opacity=".2"></path>
+                                    <path d="m229.66 218.34l-50.06-50.06a88.21 88.21 0 1 0-11.32 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72a72.08 72.08 0 0 1-72-72Z"></path>
+                                </g>
+                            </svg>
+                        </a>
+                        <div class="modal-overlay hidden">
+                            <div role="dialog" class="modal-container rounded-sm">
+                                <div class="modal-header">
+                                    <h4>Search</h4>
+                                    <!-- Close Button -->
+                                    <a class="w-4 h-4 inline-block search-close cursor-pointer" role="button"
+                                       aria-label="Close cart">
+                                        <svg width="16px" height="16px" viewBox="0 0 16 16">
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g fill-rule="nonzero" fill="#333333">
+                                                    <polygon
+                                                            points="6.23223305 8 0.616116524 13.6161165 2.38388348 15.3838835 8 9.76776695 13.6161165 15.3838835 15.3838835 13.6161165 9.76776695 8 15.3838835 2.38388348 13.6161165 0.616116524 8 6.23223305 2.38388348 0.616116524 0.616116524 2.38388348 6.23223305 8"></polygon>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="modal-content-wrapper">
+                                    <div>
+                                        <div>
+                                            <form method="POST" action="" class="flex flex-col xs:flex-row gap-[15px]">
+                                                <div class="w-full">
+                                                    <label for="search" class="mb-[5px]"></label>
+                                                    <input class="rounded-sm border py-[11px] px-[27px] focus:outline-0 w-full"
+                                                           name="email" id="search"
+                                                           placeholder="Enter what you are looking for..." type="text"/>
+                                                </div>
+                                                <input type="submit"
+                                                       class="py-[11px] px-[27px] cursor-pointer bg-secondary text-white rounded-sm transition-colors duration-300 ease-in-out hover:bg-title"
+                                                       value="SEARCH"/>
+                                            </form>
+                                            <div class="success-message hidden">
+                                                <div>Thank you! Your submission has been received!</div>
+                                            </div>
+                                            <div class="error-message hidden">
+                                                <div>
+                                                    Oops! Something went wrong while submitting the form.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hidden min-[767px]:block">
+                        <a href="#" class="nav-btn">Subscribe</a>
+                    </div>
+                    <div class="nav-button">
+                        <!-- set the display to block in the css -->
+                        <div class="top-line"></div>
+                        <div class="middle-line"></div>
+                        <div class="bottom-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-overlay">
+                <nav role="navigation" class="nav-menu">
+                    <a href="/about.html" class="nav-link">About Us</a>
+                    <a href="/news.html" class="nav-link">News</a>
+                    <a href="/authors.html" class="nav-link current">Authors</a>
+                    <a href="/contact.html" class="nav-link">Contact</a>
+                    <div class="nav-line"></div>
+                    <div class="mobile-show">
+                        <a href="#" class="nav-btn">Subscribe</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <section class="title-section">
+        <div class="hero-container">
+            <div class="title-wrap">
+                <h1 class="main-title">Terms &amp; Conditions</h1>
+            </div>
+        </div>
+    </section>
+    <section class="content-section pb-mobile-portrait xmd:pb-mobile-landing xlg:pb-desktop">
+        <div class="hero-container">
+            <div class="flex flex-col gap-[40px]">
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">A. Termination</h3>
+                    <div class="flex flex-col gap-[15px]">
+                        <p>Nulla suspendisse enim sapien sit risus lacus lectus ornare. Integer
+                            aenean ipsum tempor phasellus amet nisi mauris. Consequat non diam id laoreet pharetra porta
+                            id
+                            in. Mauris habitasse lectus sit nulla lacus. Sapien mi nunc nulla id auctor. Lorem volutpat
+                            sagittis urna sit. Rhoncus eget eget tellus pulvinar erat risus justo. Tortor tortor tempus
+                            imperdiet dolor.
+                        </p>
+                        <p>Nam convallis massa tristique nulla sit lobortis. Aliquam urna nibh mi purus. Lacus malesuada
+                            venenatis etiam mauris eu quis lectus vestibulum adipiscing. Donec sollicitudin facilisi
+                            egestas arcu pellentesque tristique praesent sed. Auctor at quam et velit sit. Donec cras
+                            quam lectus pulvinar scelerisque. Lectus interdum feugiat lacus leo facilisi orci in.
+                            Molestie nunc ullamcorper montes suscipit ultricies quisque aliquet sagittis elementum. Quam
+                            consectetur nisl bibendum imperdiet ut non ut quis. Morbi euismod tincidunt amet cursus ac
+                            lectus nibh sit aenean. Euismod porttitor vitae sed cras mi pellentesque.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">B. User Accounts</h3>
+                    <p>Id leo diam quis et tristique facilisi congue velit. Eleifend ornare ut condimentum lacus.
+                        Commodo faucibus aliquet tempor scelerisque malesuada turpis lorem urna purus. Interdum feugiat
+                        quam lobortis arcu. Aliquet scelerisque cras consequat accumsan nunc in tempor faucibus. Mattis
+                        morbi dui vitae in. A pulvinar pretium sed ultrices aliquet. Lobortis blandit amet et eu
+                        elementum eget tellus felis. Vel pellentesque massa diam sit. Habitant vitae semper sed justo
+                        fermentum tortor nibh arcu. In blandit elit vitae sodales volutpat nulla. Nisl sed nisi lobortis
+                        nam blandit vitae nunc. Sed eu quisque auctor duis ullamcorper.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">C. Usage and Access</h3>
+                    <div class="flex flex-col gap-[15px]"><p>Ornare non etiam dolor feugiat purus vitae cursus enim. Leo pretium enim
+                        leo lectus pellentesque nulla et suscipit. Porttitor sagittis elit semper imperdiet.
+                        Pellentesque maecenas amet amet est ipsum libero sagittis. Donec vitae nisi elementum
+                        bibendum.Praesent id ultrices nisl maecenas duis gravida. Est vitae fames velit fringilla
+                        gravida. Leo nulla purus enim ornare adipiscing mauris netus quam. Urna enim ullamcorper tellus
+                        mauris.</p>
+                        <p>Libero enim est scelerisque porttitor. Purus mi suspendisse nibh erat enim. Quis penatibus
+                            viverra a blandit facilisis nunc et tellus viverra. Penatibus id libero molestie mauris sed
+                            phasellus arcu egestas nisl. Diam non ipsum varius sodales pharetra. Duis sit vestibulum
+                            sapien commodo fames eu.Etiam condimentum fames blandit lobortis leo. Ipsum non imperdiet
+                            nibh dictum curabitur nibh. Quam gravida viverra commodo proin integer augue lacus et. Quis
+                            habitant cras.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">D. Payment and Billing</h3>
+                    <div class="flex flex-col gap-[15px]"><p>Nibh massa suspendisse erat urna. Iaculis nisl pellentesque ac etiam
+                        quisque. Ut nunc mauris iaculis scelerisque. Mollis ac nunc purus platea sed. Est ultrices
+                        convallis accumsan senectus lacus morbi faucibus velit. Id tincidunt mattis a sem elementum eget
+                        nec in. Est mauris elit pellentesque fusce a. A ornare sed nulla sem pretium malesuada.</p>
+                        <p>Turpis tincidunt consectetur sed neque suscipit. Id ultricies ut faucibus elit. Sed amet
+                            vulputate commodo cursus turpis. Dis urna mi faucibus et. Consequat dolor duis id consequat
+                            amet neque vitae ipsum. Consectetur turpis sem a fermentum. Lectus nunc dictum faucibus
+                            aliquam mattis vulputate. Cursus nisi nec mauris ridiculus dignissim. Sit velit amet eu at.
+                            Senectus praesent gravida malesuada sed nec ullamcorper fringilla erat faucibus. Orci mauris
+                            ut morbi sem commodo arcu sed. Adipiscing pellentesque tortor mattis suspendisse.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">E. Data Privacy &amp; Security</h3>
+                    <p>Dignissim augue dui vulputate phasellus egestas id quis enim laoreet. Mattis viverra scelerisque
+                        etiam suspendisse. Nunc accumsan non nulla nisl eu phasellus in. Mauris tincidunt bibendum
+                        interdum vulputate sit enim in non. Pellentesque porttitor pharetra vulputate pulvinar euismod.
+                        Est varius dignissim bibendum risus ut lacinia aenean. Maecenas at nulla ullamcorper malesuada
+                        eu. Faucibus porta quis scelerisque etiam nunc malesuada. Luctus eget phasellus pharetra est.
+                        Sed egestas amet id tincidunt aliquet vitae.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">F. Intellectual Property</h3>
+                    <p>Consectetur vitae nulla ac risus et pellentesque volutpat enim a. Nulla malesuada turpis odio
+                        suspendisse sed ante felis. Congue feugiat ac egestas quis amet duis. Etiam sollicitudin turpis
+                        nunc lacus justo. Ut tempor risus duis fringilla vel lectus. Aenean condimentum facilisi turpis
+                        at mattis eget. Et lacus mollis eleifend varius tincidunt feugiat id ut imperdiet. Dui vitae ac
+                        nullam scelerisque maecenas augue sed. Tincidunt elementum pellentesque quis a magna a senectus
+                        enim. Morbi dignissim risus mauris sociis. Sed dolor est a facilisis.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="mb-2.5 xs:mb-[15px]">G. Cancellation Policy</h3>
+                    <p>Arcu sollicitudin est arcu sit ornare semper nunc dolor. Ut pharetra risus vestibulum et commodo
+                        dictum tellus lorem dui. Enim sed magna egestas non integer posuere in senectus. Nisl netus
+                        consequat vulputate enim tristique egestas rutrum. Suspendisse egestas consectetur elementum
+                        libero feugiat tortor dignissim dolor. Vulputate morbi interdum convallis sit mauris mattis
+                        ultrices tellus. Nisi malesuada bibendum a mi. Sagittis amet diam enim porttitor. Ut eget eget
+                        consectetur duis in. Nunc sit velit eget in dui ultrices aenean vel.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section class="footer">
+    <!-- Marquee -->
+    <div class="footer-slider">
+        <div class="footer-autoscroll">
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+        </div>
+    </div>
+    <!-- End Marquee -->
+    <div class="footer-top">
+        <div class="section-container">
+            <div class="footer-wrap">
+                <div class="footer-block">
+                    <div class="footer-left">
+                        <h5 class="text-white">
+                            Subscribe to our updates for timely information, helpful tips,
+                            and special announcements.
+                        </h5>
+                        <div class="footer-form w-form">
+                            <form method="POST" action="">
+                                <label for="Email-Address" class="mb-[5px]"></label>
+                                <input class="footer-field" name="Email-Address"
+                                       placeholder="Enter your e-mail..." type="email" id="Email-Address"/>
+                                <input type="submit" class="primary-button" value="SUBSCRIBE"/>
+                                <p class="footer-small">
+                                    By subscribing to our newsletter, you agree to and
+                                    acknowledge that you have read our Privacy Policy and
+                                    Terms &amp; Conditions.
+                                </p>
+                            </form>
+                            <div class="success-message hidden">
+                                <div>Thank you! Your submission has been received!</div>
+                            </div>
+                            <div class="error-message hidden">
+                                <div>
+                                    Oops! Something went wrong while submitting the form.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <div class="menu-block">
+                            <div class="menu-title">PAGES</div>
+                            <div class="menu-list">
+                                <a href="/about.html" class="footer-link current">About us</a>
+                                <a href="/news.html" class="footer-link">News</a>
+                                <a href="/authors.html" class="footer-link">Authors</a>
+                                <a href="#" class="footer-link">Newsletter Plans</a>
+                                <a href="/contact.html" class="footer-link">Contact us</a>
+                            </div>
+                        </div>
+                        <div class="menu-block">
+                            <div class="menu-title">CATEGORIES</div>
+                            <div>
+                                <div role="list" class="menu-list ">
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Business</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">World News</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Technology</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Sports</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Health</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Culture</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-block">
+                            <div class="menu-title">RESOURCES</div>
+                            <div class="menu-list">
+                                <a href="/privacy-policy.html" class="footer-link">Privacy Policy</a>
+                                <a href="/advertise.html" class="footer-link">Advertise</a>
+                                <a href="/terms-and-conditions.html" class="footer-link">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="body-small text-font-color">
+                        Designed by
+                        <a href="#" target="_blank" class="footer-link underline">Macqueen006</a>. Powered by
+                        <a href="#" target="_blank" class="footer-link underline">Magnet</a>.
+                    </p>
+                    <div class="footer-copyright">
+                        <div class="footer-social">
+                            <a href="https://twitter.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458d7a2287a53a49a62cb8_ic-twitter.svg"
+                                        loading="lazy"
+                                        alt="Twitter X Icon"/>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458d9610f7c34789422f5d_ic-facebook.svg"
+                                        loading="lazy"
+                                        alt="Facebook Icon"/>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458da3661c87c6c9729e5a_ic-youtube.svg"
+                                        loading="lazy"
+                                        alt="Youtube Icon"/>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458db10362151aa24dfed3_ic-insta.svg"
+                                        loading="lazy"
+                                        width="17"
+                                        alt="Instagram Icon"/>
+                            </a>
+                            <a href="https://rss.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458e7b28a09bbe18f99364_rass.svg"
+                                        loading="lazy"
+                                        alt="Rss Icon"/>
+                            </a>
+                            <a href="https://www.reddit.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458e06feb49074e11880d0_vector.svg"
+                                        loading="lazy"
+                                        alt="Discord Icon"/>
+                            </a>
+                        </div>
+                        <p class="body-small">© 2025 Semech.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="module" src="./src/assets/js/app.js"></script>
+</body>
+</html>

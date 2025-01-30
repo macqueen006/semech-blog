@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta content="Letter News is a modern, responsive template perfect for news, magazine, and blog websites!"
+          name="description"/>
+    <meta content="About - Letter - Webflow Ecommerce website template" property="og:title"/>
+    <meta content="Letter News is a modern, responsive template perfect for news, magazine, and blog websites!"
+          property="og:description"/>
+    <meta content="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66545943c82b3eb52f71b94b_og-image.jpg"
+          property="og:image"/>
+    <meta content="About - Letter - Webflow Ecommerce website template" property="twitter:title"/>
+    <meta content="Letter News is a modern, responsive template perfect for news, magazine, and blog websites!"
+          property="twitter:description"/>
+    <meta content="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66545943c82b3eb52f71b94b_og-image.jpg"
+          property="twitter:image"/>
+    <meta property="og:type" content="website"/>
+    <meta content="summary_large_image" name="twitter:card"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="Semech" name="generator"/>
+    <link href="https://api.fontshare.com/v2/css?f[]=switzer@200,300,400,500,600,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+</head>
+<body>
+<div>
+    <div role="list" class="topbar">
+        <div role="listitem">
+            <a href="#" class="top-menu">Business</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">World News</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Technology</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Sports</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Health</a>
+        </div>
+        <div role="listitem">
+            <a href="#" class="top-menu">Culture</a>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="nav-wrap">
+            <div class="nav-data">
+                <a href="index.html" class="brand">
+                    Semech
+                </a>
+                <div class="nav-right h-[32.2px]">
+                    <div class="inline-rel">
+                        <a class="flex gap-1 items-center text-sm cursor-pointer search-btn"
+                           role="button"
+                           aria-haspopup="dialog"
+                           aria-label="Open cart"
+                           href="#"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 aria-hidden="true" role="img" class="w-5 h-5 bg-transparent" style="" width="1em"
+                                 height="1em"
+                                 viewBox="0 0 256 256">
+                                <g fill="text-body">
+                                    <path d="M192 112a80 80 0 1 1-80-80a80 80 0 0 1 80 80Z" opacity=".2"></path>
+                                    <path d="m229.66 218.34l-50.06-50.06a88.21 88.21 0 1 0-11.32 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72a72.08 72.08 0 0 1-72-72Z"></path>
+                                </g>
+                            </svg>
+                        </a>
+                        <div class="modal-overlay hidden">
+                            <div role="dialog" class="modal-container rounded-sm">
+                                <div class="modal-header">
+                                    <h4>Search</h4>
+                                    <!-- Close Button -->
+                                    <a class="w-4 h-4 inline-block search-close cursor-pointer" role="button"
+                                       aria-label="Close cart">
+                                        <svg width="16px" height="16px" viewBox="0 0 16 16">
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g fill-rule="nonzero" fill="#333333">
+                                                    <polygon
+                                                            points="6.23223305 8 0.616116524 13.6161165 2.38388348 15.3838835 8 9.76776695 13.6161165 15.3838835 15.3838835 13.6161165 9.76776695 8 15.3838835 2.38388348 13.6161165 0.616116524 8 6.23223305 2.38388348 0.616116524 0.616116524 2.38388348 6.23223305 8"></polygon>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="modal-content-wrapper">
+                                    <div>
+                                        <div>
+                                            <form method="POST" action="" class="flex flex-col xs:flex-row gap-[15px]">
+                                                <div class="w-full">
+                                                    <label for="search" class="mb-[5px]"></label>
+                                                    <input class="rounded-sm border py-[11px] px-[27px] focus:outline-0 w-full"
+                                                           name="email" id="search"
+                                                           placeholder="Enter what you are looking for..." type="text"/>
+                                                </div>
+                                                <input type="submit"
+                                                       class="py-[11px] px-[27px] cursor-pointer bg-secondary text-white rounded-sm transition-colors duration-300 ease-in-out hover:bg-title"
+                                                       value="SEARCH"/>
+                                            </form>
+                                            <div class="success-message hidden">
+                                                <div>Thank you! Your submission has been received!</div>
+                                            </div>
+                                            <div class="error-message hidden">
+                                                <div>
+                                                    Oops! Something went wrong while submitting the form.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hidden min-[767px]:block">
+                        <a href="#" class="nav-btn">Subscribe</a>
+                    </div>
+                    <div class="nav-button">
+                        <!-- set the display to block in the css -->
+                        <div class="top-line"></div>
+                        <div class="middle-line"></div>
+                        <div class="bottom-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-overlay">
+                <nav role="navigation" class="nav-menu">
+                    <a href="/about.html" class="nav-link">About Us</a>
+                    <a href="/news.html" class="nav-link">News</a>
+                    <a href="/authors.html" class="nav-link current">Authors</a>
+                    <a href="/contact.html" class="nav-link">Contact</a>
+                    <div class="nav-line"></div>
+                    <div class="mobile-show">
+                        <a href="#" class="nav-btn">Subscribe</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <section class="title-section">
+        <div class="hero-container">
+            <div class="title-wrap">
+                <h1 class="main-title">OUR AUTHORS</h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="hero-container">
+            <div class="w-dyn-list">
+                <div role="list" class="author-wrap">
+                    <div role="listitem">
+                        <a href="#"
+                           class="author-block">
+                            <div class="author-thumb">
+                                <img
+                                        src="https://cdn.prod.website-files.com/664b3107ba6f224e8747792d/664b418b57fe6741e4dc6aac_author-thumb-01.jpg"
+                                        loading="eager"
+                                        alt="Leslie Alexander"
+                                        sizes="(max-width: 479px) 92vw, (max-width: 767px) 46vw, (max-width: 991px) 23vw, 22vw"
+                                        class="cover-image"
+                                />
+                                <!--                                        srcset="author-thumb-01-p-500.jpg 500w, author-thumb-01.jpg 618w"-->
+                            </div>
+                            <div class="author">
+                                <h5>Leslie Alexander</h5>
+                                <p class="body-small">Senior Reporter</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div role="listitem">
+                        <a href="#"
+                           class="author-block">
+                            <div class="author-thumb">
+                                <img
+                                        src="https://cdn.prod.website-files.com/664b3107ba6f224e8747792d/664b4195cbe3227b134ee389_author-thumb-02.jpg"
+                                        loading="eager"
+                                        alt="Wade Warren"
+                                        sizes="(max-width: 479px) 92vw, (max-width: 767px) 46vw, (max-width: 991px) 23vw, 22vw"
+                                        class="cover-image"
+                                />
+                                <!--                                        srcset="author-thumb-02-p-500.jpg 500w, author-thumb-02.jpg 618w"-->
+                            </div>
+                            <div class="author">
+                                <h5>Wade Warren</h5>
+                                <p class="body-small">Author</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div role="listitem">
+                        <a href="#"
+                           class="author-block">
+                            <div class="author-thumb">
+                                <img
+                                        src="https://cdn.prod.website-files.com/664b3107ba6f224e8747792d/664b41a55fd26879e79488aa_author-thumb-03.jpg"
+                                        loading="eager"
+                                        alt="Marvin McKinney"
+                                        sizes="(max-width: 479px) 92vw, (max-width: 767px) 46vw, (max-width: 991px) 23vw, 22vw"
+                                        class="cover-image"
+                                />
+                                <!--                                        srcset="author-thumb-03-p-500.jpg 500w, author-thumb-03.jpg 618w"-->
+                            </div>
+                            <div class="author">
+                                <h5>Marvin McKinney</h5>
+                                <p class="body-small">Publisher</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div role="listitem">
+                        <a href="#"
+                           class="author-block">
+                            <div class="author-thumb">
+                                <img
+                                        src="https://cdn.prod.website-files.com/664b3107ba6f224e8747792d/664b41b2a801b3ef3d893e44_author-thumb-04.jpg"
+                                        loading="eager"
+                                        alt="Jane Cooper"
+                                        sizes="(max-width: 479px) 92vw, (max-width: 767px) 46vw, (max-width: 991px) 23vw, 22vw"
+                                        class="cover-image"
+                                />
+                                <!--                                        srcset="author-thumb-04-p-500.jpg 500w, author-thumb-04.jpg 618w"-->
+                            </div>
+                            <div class="author">
+                                <h5>Jane Cooper</h5>
+                                <p class="body-small">Content Writer</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div role="listitem">
+                        <a href="#"
+                           class="author-block">
+                            <div class="author-thumb">
+                                <img
+                                        src="https://cdn.prod.website-files.com/664b3107ba6f224e8747792d/664b41bef69ff96597f32d4f_author-thumb-05.jpg"
+                                        loading="eager"
+                                        alt="Esther Howard"
+                                        sizes="(max-width: 479px) 92vw, (max-width: 767px) 46vw, (max-width: 991px) 23vw, 22vw"
+                                        class="cover-image"
+                                />
+                                <!--                                        srcset="author-thumb-05-p-500.jpg 500w, author-thumb-05.jpg 618w"-->
+                            </div>
+                            <div class="author">
+                                <h5>Esther Howard</h5>
+                                <p class="body-small">Author</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div role="listitem">
+                        <a href="#"
+                           class="author-block">
+                            <div class="author-thumb">
+                                <img
+                                        src="https://cdn.prod.website-files.com/664b3107ba6f224e8747792d/664b41d197f80e6d30cd53d3_author-thumb-06.jpg"
+                                        loading="eager"
+                                        alt="Jenny Wilson"
+                                        sizes="(max-width: 479px) 92vw, (max-width: 767px) 46vw, (max-width: 991px) 23vw, 22vw"
+                                        class="cover-image"
+                                />
+                                <!--                                        srcset="author-thumb-06-p-500.jpg 500w, author-thumb-06.jpg 618w"-->
+                            </div>
+                            <div class="author">
+                                <h5>Jenny Wilson</h5>
+                                <p class="body-small">Editor</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div role="listitem">
+                        <a href="#"
+                           class="author-block">
+                            <div class="author-thumb">
+                                <img
+                                        src="https://cdn.prod.website-files.com/664b3107ba6f224e8747792d/664b41d971ea56345d38ae41_author-thumb-07.jpg"
+                                        loading="eager"
+                                        alt="Guy Hawkins"
+                                        sizes="(max-width: 479px) 92vw, (max-width: 767px) 46vw, (max-width: 991px) 23vw, 22vw"
+                                        class="cover-image"
+                                />
+                                <!--                                        srcset="author-thumb-07-p-500.jpg 500w, author-thumb-07.jpg 618w"-->
+                            </div>
+                            <div class="author">
+                                <h5>Guy Hawkins</h5>
+                                <p class="body-small">Journalist</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div role="listitem">
+                        <a href="#"
+                           class="author-block">
+                            <div class="author-thumb">
+                                <img
+                                        src="https://cdn.prod.website-files.com/664b3107ba6f224e8747792d/664b41e057fe6741e4dc91af_author-thumb-08.jpg"
+                                        loading="eager"
+                                        alt="Kristin Watson"
+                                        sizes="(max-width: 479px) 92vw, (max-width: 767px) 46vw, (max-width: 991px) 23vw, 22vw"
+                                        class="cover-image"
+                                />
+                                <!--                                        srcset="author-thumb-08-p-500.jpg 500w, author-thumb-08.jpg 618w"-->
+                            </div>
+                            <div class="author">
+                                <h5>Kristin Watson</h5>
+                                <p class="body-small">Senior Writer</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action -->
+    <section class="section">
+        <div class="section-container">
+            <div class="newsletter">
+                <div class="newsletter-left">
+                    <div class="newsletter-title">
+                        <h3>Stay informed with our latest news and updates.</h3>
+                        <p class="body-large">
+                            Be the first to know about emerging trends.
+                        </p>
+                    </div>
+                    <p class="cta-subtext">
+                        From breaking news to thought-provoking opinion pieces, our
+                        newsletter keeps you informed &amp; engaged.
+                    </p>
+                </div>
+                <div class="newsletter-right">
+                    <div>
+                        <form method="POST" action="">
+                            <label for="email" class="mb-[5px]"></label>
+                            <input class="newsletter-field" name="email" id="email"
+                                   placeholder="Enter your e-mail..." type="text"/>
+                            <input type="submit" class="primary-button full-width" value="SIGN UP"/>
+                        </form>
+                        <div class="success-message hidden">
+                            <div>Thank you! Your submission has been received!</div>
+                        </div>
+                        <div class="error-message hidden">
+                            <div>
+                                Oops! Something went wrong while submitting the form.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section class="footer">
+    <!-- Marquee -->
+    <div class="footer-slider">
+        <div class="footer-autoscroll">
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+            <p class="footer-item">THESEMECHNEWS</p>
+        </div>
+    </div>
+    <!-- End Marquee -->
+    <div class="footer-top">
+        <div class="section-container">
+            <div class="footer-wrap">
+                <div class="footer-block">
+                    <div class="footer-left">
+                        <h5 class="text-white">
+                            Subscribe to our updates for timely information, helpful tips,
+                            and special announcements.
+                        </h5>
+                        <div class="footer-form w-form">
+                            <form method="POST" action="">
+                                <label for="Email-Address" class="mb-[5px]"></label>
+                                <input class="footer-field" name="Email-Address"
+                                       placeholder="Enter your e-mail..." type="email" id="Email-Address"/>
+                                <input type="submit" class="primary-button" value="SUBSCRIBE"/>
+                                <p class="footer-small">
+                                    By subscribing to our newsletter, you agree to and
+                                    acknowledge that you have read our Privacy Policy and
+                                    Terms &amp; Conditions.
+                                </p>
+                            </form>
+                            <div class="success-message hidden">
+                                <div>Thank you! Your submission has been received!</div>
+                            </div>
+                            <div class="error-message hidden">
+                                <div>
+                                    Oops! Something went wrong while submitting the form.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <div class="menu-block">
+                            <div class="menu-title">PAGES</div>
+                            <div class="menu-list">
+                                <a href="/about.html" class="footer-link current">About us</a>
+                                <a href="/news.html" class="footer-link">News</a>
+                                <a href="/authors.html" class="footer-link">Authors</a>
+                                <a href="#" class="footer-link">Newsletter Plans</a>
+                                <a href="/contact.html" class="footer-link">Contact us</a>
+                            </div>
+                        </div>
+                        <div class="menu-block">
+                            <div class="menu-title">CATEGORIES</div>
+                            <div>
+                                <div role="list" class="menu-list ">
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Business</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">World News</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Technology</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Sports</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Health</a>
+                                    </div>
+                                    <div role="listitem">
+                                        <a href="#" class="footer-link">Culture</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-block">
+                            <div class="menu-title">RESOURCES</div>
+                            <div class="menu-list">
+                                <a href="/privacy-policy.html" class="footer-link">Privacy Policy</a>
+                                <a href="/advertise.html" class="footer-link">Advertise</a>
+                                <a href="/terms-and-conditions.html" class="footer-link">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="body-small text-font-color">
+                        Designed by
+                        <a href="#" target="_blank" class="footer-link underline">Macqueen006</a>. Powered by
+                        <a href="#" target="_blank" class="footer-link underline">Magnet</a>.
+                    </p>
+                    <div class="footer-copyright">
+                        <div class="footer-social">
+                            <a href="https://twitter.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458d7a2287a53a49a62cb8_ic-twitter.svg"
+                                        loading="lazy"
+                                        alt="Twitter X Icon"/>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458d9610f7c34789422f5d_ic-facebook.svg"
+                                        loading="lazy"
+                                        alt="Facebook Icon"/>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458da3661c87c6c9729e5a_ic-youtube.svg"
+                                        loading="lazy"
+                                        alt="Youtube Icon"/>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458db10362151aa24dfed3_ic-insta.svg"
+                                        loading="lazy"
+                                        width="17"
+                                        alt="Instagram Icon"/>
+                            </a>
+                            <a href="https://rss.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458e7b28a09bbe18f99364_rass.svg"
+                                        loading="lazy"
+                                        alt="Rss Icon"/>
+                            </a>
+                            <a href="https://www.reddit.com/" target="_blank" class="social-icon">
+                                <img
+                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458e06feb49074e11880d0_vector.svg"
+                                        loading="lazy"
+                                        alt="Discord Icon"/>
+                            </a>
+                        </div>
+                        <p class="body-small">© 2025 Semech.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="module" src="./src/assets/js/app.js"></script>
+</body>
+</html>
