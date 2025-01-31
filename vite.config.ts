@@ -14,7 +14,10 @@ export default defineConfig({
         news: "news.html",
         policy: "privacy-policy.html",
         terms: "terms-and-conditions.html",
-        single: "single-blog.html"
+        single: "single-blog.html",
+        author: "single-author.html",
+        podcast: "single-podcast.html",
+        podcasts: "podcast.html",
       }
     }
   },
