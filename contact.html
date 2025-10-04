@@ -1,610 +1,1022 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <meta content="Semech News is a modern, responsive  perfect for news, magazine, and blog websites!"
-          name="description"/>
-    <meta content="About - Semech - Webflow website " property="og:title"/>
+        name="description" />
+    <meta content="About - Semech - Webflow website " property="og:title" />
     <meta content="Semech News is a modern, responsive  perfect for news, magazine, and blog websites!"
-          property="og:description"/>
+        property="og:description" />
     <meta content="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66545943c82b3eb52f71b94b_og-image.jpg"
-          property="og:image"/>
-    <meta content="About - Semech - Webflow website " property="twitter:title"/>
+        property="og:image" />
+    <meta content="About - Semech - Webflow website " property="twitter:title" />
     <meta content="Semech News is a modern, responsive  perfect for news, magazine, and blog websites!"
-          property="twitter:description"/>
+        property="twitter:description" />
     <meta content="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66545943c82b3eb52f71b94b_og-image.jpg"
-          property="twitter:image"/>
-    <meta property="og:type" content="website"/>
-    <meta content="summary_large_image" name="twitter:card"/>
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <meta content="Semech" name="generator"/>
+        property="twitter:image" />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Semech" name="generator" />
     <link href="https://api.fontshare.com/v2/css?f[]=switzer@200,300,400,500,600,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/assets/css/style.css">
 </head>
+
 <body>
-<div>
-    <div role="list" class="topbar">
-        <div role="listitem">
-            <a href="#" class="top-menu">Business</a>
+    <div>
+        <div role="list" class="topbar">
+            <div role="listitem">
+                <a href="#" class="top-menu">Business</a>
+            </div>
+            <div role="listitem">
+                <a href="#" class="top-menu">World News</a>
+            </div>
+            <div role="listitem">
+                <a href="#" class="top-menu">Technology</a>
+            </div>
+            <div role="listitem">
+                <a href="#" class="top-menu">Sports</a>
+            </div>
+            <div role="listitem">
+                <a href="#" class="top-menu">Health</a>
+            </div>
+            <div role="listitem">
+                <a href="#" class="top-menu">Culture</a>
+            </div>
         </div>
-        <div role="listitem">
-            <a href="#" class="top-menu">World News</a>
-        </div>
-        <div role="listitem">
-            <a href="#" class="top-menu">Technology</a>
-        </div>
-        <div role="listitem">
-            <a href="#" class="top-menu">Sports</a>
-        </div>
-        <div role="listitem">
-            <a href="#" class="top-menu">Health</a>
-        </div>
-        <div role="listitem">
-            <a href="#" class="top-menu">Culture</a>
-        </div>
-    </div>
-    <div class="navbar">
-        <div class="nav-wrap">
-            <div class="nav-data">
-                <a href="/semech-blog/" class="brand">
-                    Semech
-                </a>
-                <div class="nav-right h-[32.2px]">
-                    <div class="inline-rel">
-                        <a class="flex gap-1 items-center text-sm cursor-pointer search-btn"
-                           role="button"
-                           aria-haspopup="dialog"
-                           aria-label="Open cart"
-                           href="#"
-                        >
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                 aria-hidden="true" role="img" class="w-5 h-5 bg-transparent" style="" width="1em"
-                                 height="1em"
-                                 viewBox="0 0 256 256">
-                                <g fill="text-body">
-                                    <path d="M192 112a80 80 0 1 1-80-80a80 80 0 0 1 80 80Z" opacity=".2"></path>
-                                    <path d="m229.66 218.34l-50.06-50.06a88.21 88.21 0 1 0-11.32 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72a72.08 72.08 0 0 1-72-72Z"></path>
-                                </g>
-                            </svg>
-                        </a>
-                        <div class="modal-overlay hidden">
-                            <div role="dialog" class="modal-container rounded-sm">
-                                <div class="modal-header">
-                                    <h4>Search</h4>
-                                    <!-- Close Button -->
-                                    <a class="w-4 h-4 inline-block search-close cursor-pointer" role="button"
-                                       aria-label="Close cart">
-                                        <svg width="16px" height="16px" viewBox="0 0 16 16">
-                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g fill-rule="nonzero" fill="#333333">
-                                                    <polygon
-                                                            points="6.23223305 8 0.616116524 13.6161165 2.38388348 15.3838835 8 9.76776695 13.6161165 15.3838835 15.3838835 13.6161165 9.76776695 8 15.3838835 2.38388348 13.6161165 0.616116524 8 6.23223305 2.38388348 0.616116524 0.616116524 2.38388348 6.23223305 8"></polygon>
-                                                </g>
-                                            </g>
+        <div class="navbar">
+            <!-- ========== HEADER ========== -->
+            <header class="flex flex-wrap md:justify-start md:flex-nowrap w-full">
+                <nav class="relative w-full md:flex md:items-center md:justify-between md:gap-3 mx-auto py-2">
+                    <!-- Logo w/ Collapse Button -->
+                    <div class="flex items-center justify-between">
+                        <a class="flex-none font-normal text-xl text-body focus:outline-hidden focus:opacity-80 uppercase"
+                            href="#" aria-label="Brand">semech</a>
+
+                        <!-- Collapse Button -->
+                        <div class="md:hidden flex gap-4">
+                            <button type="button"
+                                class="flex cursor-pointer items-center justify-center rounded-full text-body d05xb focus:outline-hidden r17tr"
+                                aria-haspopup="dialog" aria-expanded="false" aria-controls="search-home-modal"
+                                data-hs-overlay="#search-home-modal">
+                                <svg class="block text-body size-5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="m21 21-4.3-4.3"></path>
+                                </svg>
+                            </button>
+
+                            <button type="button"
+                                class="hs-collapse-toggle relative size-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-gray-200 text-body hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+                                id="hs-header-classic-collapse" aria-expanded="false" aria-controls="hs-header-classic"
+                                aria-label="Toggle navigation" data-hs-collapse="#hs-header-classic">
+                                <svg class="hs-collapse-open:hidden size-4" xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="3" x2="21" y1="6" y2="6" />
+                                    <line x1="3" x2="21" y1="12" y2="12" />
+                                    <line x1="3" x2="21" y1="18" y2="18" />
+                                </svg>
+                                <svg class="hs-collapse-open:block shrink-0 hidden size-4"
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 6 6 18" />
+                                    <path d="m6 6 12 12" />
+                                </svg>
+                                <span class="sr-only">Toggle navigation</span>
+                            </button>
+
+                        </div>
+                        <!-- End Collapse Button -->
+                    </div>
+                    <!-- End Logo w/ Collapse Button -->
+
+                    <!-- Collapse -->
+                    <div id="hs-header-classic"
+                        class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
+                        aria-labelledby="hs-header-classic-collapse">
+                        <div
+                            class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
+                            <div
+                                class="py-2 md:py-0 flex flex-col md:flex-row md:items-center md:justify-end gap-0.5 md:gap-1">
+                                <a class="p-2 flex items-center text-sm text-secondary focus:outline-hidden focus:text-secondary"
+                                    href="/" aria-current="page">
+                                    <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                                        <path
+                                            d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                    </svg>
+                                    Home
+                                </a>
+
+                                <a class="p-2 flex items-center text-sm text-body hover:text-gray-500 focus:outline-hidden focus:text-gray-500"
+                                    href="/semech-blog/about">
+                                    <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                                        <circle cx="12" cy="7" r="4" />
+                                    </svg>
+                                    About us
+                                </a>
+
+                                <a class="p-2 flex items-center text-sm text-body hover:text-gray-500 focus:outline-hidden focus:text-gray-500"
+                                    href="/semech-blog/news">
+                                    <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M12 12h.01" />
+                                        <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                                        <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+                                        <rect width="20" height="14" x="2" y="6" rx="2" />
+                                    </svg>
+                                    Blog
+                                </a>
+
+                                <a class="p-2 flex items-center text-sm text-body hover:text-gray-500 focus:outline-hidden focus:text-gray-500"
+                                    href="/semech-blog/contact">
+                                    <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" />
+                                        <path d="M18 14h-8" />
+                                        <path d="M15 18h-5" />
+                                        <path d="M10 6h8v4h-8V6Z" />
+                                    </svg>
+                                    Contact
+                                </a>
+
+                                <!-- Button Group -->
+                                <div
+                                    class="relative flex items-center gap-x-1.5 md:ps-2.5 mt-1 md:mt-0 md:ms-1.5 before:block before:absolute before:top-1/2 before:-start-px before:w-px before:h-4 before:bg-gray-300 before:-translate-y-1/2 dark:before:bg-neutral-700">
+                                    <button type="button" aria-haspopup="dialog" aria-expanded="false"
+                                        aria-controls="search-home-modal" data-hs-overlay="#search-home-modal"
+                                        class="hidden md:flex cursor-pointer items-center justify-center rounded-full text-body d05xb focus:outline-hidden r17tr">
+                                        <svg class="block text-body size-4" xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="11" cy="11" r="8"></circle>
+                                            <path d="m21 21-4.3-4.3"></path>
                                         </svg>
+                                    </button>
+                                    <a class="p-2 w-full flex items-center text-sm text-body hover:text-gray-500 focus:outline-hidden focus:text-gray-500"
+                                        href="#">
+                                        <svg class="shrink-0 size-4 me-3 md:me-2" xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                                            <circle cx="12" cy="7" r="4" />
+                                        </svg>
+                                        Log in
                                     </a>
                                 </div>
-                                <div class="modal-content-wrapper">
+                                <!-- End Button Group -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Collapse -->
+                </nav>
+            </header>
+            <!-- ========== END HEADER ========== -->
+        </div>
+    </div>
+
+    <div class="page-wrap">
+        <section class="title-section">
+            <div class="hero-container">
+                <div class="title-wrap">
+                    <h1 class="main-title">CONTACT US</h1>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="hero-container">
+                <div class="contact-wrap">
+                    <div class="pick-block contact">
+                        <div class="contact-img">
+                            <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d8b0085d7887942f1f359_contact-image.jpg"
+                                loading="eager"
+                                sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 44vw, 36vw"
+                                alt="Contact Image" class="cover-image" />
+                        </div>
+                        <div class="social-block">
+                            <div class="body-small text-black whitespace-nowrap">Follow me on:</div>
+                            <div class="flex gap-[12px]">
+                                <a href="#" target="_blank" class="social-link">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664c86f1d67ccf45534dc613_ic-twitter.svg"
+                                        loading="lazy" width="17" height="15.11" alt="Twitter Icon" />
+                                </a>
+                                <a href="https://facebook.com/" target="_blank" class="social-link">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664c86f19024ec9ac4086e95_ic-facebook.svg"
+                                        loading="lazy" width="9.33" height="16" alt="Facebook Icon" />
+                                </a>
+                                <a href="https://www.youtube.com/" target="_blank" class="social-link">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664c86f00347c5223f1694f0_ic-youtube.svg"
+                                        loading="lazy" width="15.11" height="10.67" alt="Youtube Icon" />
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank" class="social-link">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664c86f1cb8b1a5e675a9b84_ic-insta.svg"
+                                        loading="lazy" width="16.25" height="16.25" alt="Instagram Icon" />
+                                </a>
+                                <a href="https://rss.com/" target="_blank" class="social-link">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d8c21fa3ce7aa3df0d075_ic-ress.svg"
+                                        loading="lazy" width="16.25" height="16.25" alt="Rss Icon" />
+                                </a>
+                                <a href="https://www.reddit.com/" target="_blank" class="social-link">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d8c2bfa6a1715c6ab76af_ic-discord.svg"
+                                        loading="lazy" width="16" height="16.25" alt="Social Icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-wrapper">
+                        <div class="hero-title">
+                            <h5>Get in Touch</h5>
+                            <p>We value your feedback and are always eager to hear from our readers, and partners.
+                                Whether
+                                you have a question, or inquiry, getting in touch with us is easy.
+                            </p>
+                        </div>
+                        <div class="contact-forms w-form">
+                            <form method="get" action="" class="contact-form">
+                                <div>
+                                    <label for="first-name" class="sr-only">First name</label>
+                                    <input type="email" id="first-name"
+                                        class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-secondary focus:ring-secondary disabled:opacity-50 disabled:pointer-events-none"
+                                        placeholder="First name">
+                                </div>
+                                <div>
+                                    <label for="last-name" class="sr-only">Last name</label>
+                                    <input type="email" id="last-name"
+                                        class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-secondary focus:ring-secondary disabled:opacity-50 disabled:pointer-events-none"
+                                        placeholder="Last name">
+                                </div>
+                                <div>
+                                    <label for="email" class="sr-only">Email</label>
+                                    <input type="email" id="email"
+                                        class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-secondary focus:ring-secondary disabled:opacity-50 disabled:pointer-events-none"
+                                        placeholder="Email address">
+                                </div>
+                                <div>
+                                    <label for="phone" class="sr-only">Phone</label>
+                                    <input type="text" id="phone"
+                                        class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-secondary focus:ring-secondary disabled:opacity-50 disabled:pointer-events-none"
+                                        placeholder="Phone number">
+                                </div>
+
+                                <div class="xs:col-span-2">
+                                    <label for="message" class="sr-only">Your Message</label>
+                                    <textarea
+                                        class="py-2 border-gray-200 px-3 sm:py-3 sm:px-4 block w-full rounded-lg sm:text-sm focus:border-secondary focus:ring-secondary disabled:opacity-50 disabled:pointer-events-none"
+                                        rows="3" placeholder="Your Message"></textarea>
+                                </div>
+
+                                <div class="xs:col-span-2 flex justify-end pt-[5px]">
+                                    <button type="submit"
+                                        class="w-full sm:w-auto py-3 px-4 cursor-pointer uppercase inline-flex items-center justify-center gap-x-2 text-sm font-normal rounded-lg border border-gray-200 bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none">
+                                        Submit
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="success-message hidden">
+                                <div>Thank you! Your submission has been received!</div>
+                            </div>
+                            <div class="error-message hidden">
+                                <div>Oops! Something went wrong while submitting the form.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="hero-container">
+                <div class="contact-block">
+                    <div class="contact-inner">
+                        <div class="contact-left">
+                            <h4>General Information</h4>
+                        </div>
+                        <div class="contact-right">
+                            <div class="hero-title space-large">
+                                <p>If you have any questions, feedback, or inquiries, we&#x27;re
+                                    here to help. Feel free to reach out to us via the contact information provided
+                                    below.</p><a href="mailto:help@Semechnews.com"
+                                    class="contact-link color-black">help@Semechnews.com</a>
+                            </div>
+                            <div class="hero-title space-large">
+                                <p>Your feedback helps us improve our services and better
+                                    serve our readers.</p><a href="mailto:help@Semechnews.com"
+                                    class="contact-link color-black">info@Semechnews.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-inner">
+                        <div class="contact-left">
+                            <h4>Advertising Sales</h4>
+                        </div>
+                        <div class="contact-right">
+                            <div class="hero-title space-large">
+                                <p>For advertising inquiries and partnership opportunities,
+                                    please reach out to our advertising sales team using the contact information
+                                    provided
+                                    below.</p><a href="mailto:sales@example.com"
+                                    class="contact-link color-black">sales@example.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-inner">
+                        <div class="contact-left">
+                            <h4>Broadcast Operation</h4>
+                        </div>
+                        <div class="contact-right">
+                            <div class="hero-title space-large">
+                                <p>For broadcast inquiries and media partnerships, please
+                                    contact our broadcast information team using the information provided below.</p>
+                                <div class="contact-data">
+                                    <div class="contact">
+                                        <div class="color-black">Email:</div>
+                                        <a href="mailto:broadcast@example.com"
+                                            class="contact-link">broadcast@example.com</a>
+                                    </div>
+                                    <div class="contact">
+                                        <div class="color-black">Phone:</div>
+                                        <a href="tel:(316)555-0116" class="contact-link">(316) 555-0116</a>
+                                    </div>
+                                    <div class="contact">
+                                        <div class="color-black">Fax:</div>
+                                        <div>(808) 555-0111</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero-title">
+                                <div class="color-black">Address:</div>
+                                <div>4517 Washington Ave. <br />Manchester, Kentucky 39495</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section pt-0">
+            <div class="hero-container">
+                <div>
+                    <div class="section-title">
+                        <h2>HAVE ANY QUESTIONS?</h2>
+                    </div>
+                    <div class="faq-wrap">
+                        <div class="faq-outer">
+                            <div class="hs-accordion-group">
+                                <div class="hs-accordion active faq"
+                                    id="hs-basic-with-title-and-arrow-stretched-heading-one">
+                                    <button
+                                        class="hs-accordion-toggle hs-accordion-active:text-secondary py-3 inline-flex items-center justify-between gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none"
+                                        aria-expanded="true"
+                                        aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
+                                        Accordion #1
+                                        <svg class="hs-accordion-active:hidden block size-4"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="m6 9 6 6 6-6"></path>
+                                        </svg>
+                                        <svg class="hs-accordion-active:block hidden size-4"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="m18 15-6-6-6 6"></path>
+                                        </svg>
+                                    </button>
+                                    <div id="hs-basic-with-title-and-arrow-stretched-collapse-one"
+                                        class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                                        role="region"
+                                        aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
+                                        <p class="text-body">
+                                            <em>This is the first item's accordion body.</em> It is hidden by default,
+                                            until the collapse plugin adds the appropriate classes that we use to style
+                                            each element. These classes control the overall appearance, as well as the
+                                            showing and hiding via CSS transitions.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="hs-accordion faq" id="hs-basic-with-title-and-arrow-stretched-heading-two">
+                                    <button
+                                        class="hs-accordion-toggle hs-accordion-active:text-secondary py-3 inline-flex items-center justify-between gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none"
+                                        aria-expanded="false"
+                                        aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
+                                        Accordion #2
+                                        <svg class="hs-accordion-active:hidden block size-4"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="m6 9 6 6 6-6"></path>
+                                        </svg>
+                                        <svg class="hs-accordion-active:block hidden size-4"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="m18 15-6-6-6 6"></path>
+                                        </svg>
+                                    </button>
+                                    <div id="hs-basic-with-title-and-arrow-stretched-collapse-two"
+                                        class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                                        role="region"
+                                        aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
+                                        <p class="text-body">
+                                            <em>This is the second item's accordion body.</em> It is hidden by default,
+                                            until the collapse plugin adds the appropriate classes that we use to style
+                                            each element. These classes control the overall appearance, as well as the
+                                            showing and hiding via CSS transitions.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="hs-accordion faq"
+                                    id="hs-basic-with-title-and-arrow-stretched-heading-three">
+                                    <button
+                                        class="hs-accordion-toggle hs-accordion-active:text-secondary py-3 inline-flex items-center justify-between gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none"
+                                        aria-expanded="false"
+                                        aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
+                                        Accordion #3
+                                        <svg class="hs-accordion-active:hidden block size-4"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="m6 9 6 6 6-6"></path>
+                                        </svg>
+                                        <svg class="hs-accordion-active:block hidden size-4"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="m18 15-6-6-6 6"></path>
+                                        </svg>
+                                    </button>
+                                    <div id="hs-basic-with-title-and-arrow-stretched-collapse-three"
+                                        class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                                        role="region"
+                                        aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three">
+                                        <p class="text-body">
+                                            <em>This is the third item's accordion body.</em> It is hidden by default,
+                                            until the collapse plugin adds the appropriate classes that we use to style
+                                            each element. These classes control the overall appearance, as well as the
+                                            showing and hiding via CSS transitions.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Image -->
+                        <div class="faq-img">
+                            <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d736504c87173239d9916_faq-image.jpg"
+                                loading="lazy" sizes="(max-width: 767px) 92vw, 46vw" alt="Faq Image"
+                                class="cover-image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <section class="footer">
+        <!-- Marquee -->
+        <section class="newmarquee-container" data-direction="left" data-speed="30" data-pauseonhover="true">
+            <div id="newmarquee-content" class="flex items-center gap-6 py-5">
+                <p class="footer-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="footer-item">Magni repellat nemo nesciunt rerum asperiores assumenda ex quos dignissimos.</p>
+            </div>
+        </section>
+        <!-- End Marquee -->
+        <div class="footer-top">
+            <div class="section-container">
+                <div class="footer-wrap">
+                    <div class="footer-block">
+                        <div class="footer-left">
+                            <h5 class="text-white">
+                                Subscribe to our updates for timely information, helpful tips,
+                                and special announcements.
+                            </h5>
+                            <div class="footer-form w-form">
+                                <form method="POST" action="">
+                                    <label for="Email-Address" class="mb-[5px]"></label>
+                                    <input class="footer-field" name="Email-Address" placeholder="Enter your e-mail..."
+                                        type="email" id="Email-Address" />
+                                    <input type="submit" class="primary-button" value="SUBSCRIBE" />
+                                    <p class="footer-small">
+                                        By subscribing to our newsletter, you agree to and
+                                        acknowledge that you have read our Privacy Policy and
+                                        Terms &amp; Conditions.
+                                    </p>
+                                </form>
+                                <div class="success-message hidden">
+                                    <div>Thank you! Your submission has been received!</div>
+                                </div>
+                                <div class="error-message hidden">
                                     <div>
-                                        <div>
-                                            <form method="POST" action="" class="flex flex-col xs:flex-row gap-[15px]">
-                                                <div class="w-full">
-                                                    <label for="search" class="mb-[5px]"></label>
-                                                    <input class="rounded-sm border py-[11px] px-[27px] focus:outline-0 w-full"
-                                                           name="email" id="search"
-                                                           placeholder="Enter what you are looking for..." type="text"/>
-                                                </div>
-                                                <input type="submit"
-                                                       class="py-[11px] px-[27px] cursor-pointer bg-secondary text-white rounded-sm transition-colors duration-300 ease-in-out hover:bg-title"
-                                                       value="SEARCH"/>
-                                            </form>
-                                            <div class="success-message hidden">
-                                                <div>Thank you! Your submission has been received!</div>
-                                            </div>
-                                            <div class="error-message hidden">
-                                                <div>
-                                                    Oops! Something went wrong while submitting the form.
-                                                </div>
-                                            </div>
+                                        Oops! Something went wrong while submitting the form.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-right">
+                            <div class="menu-block">
+                                <div class="menu-title">PAGES</div>
+                                <div class="menu-list">
+                                    <a href="/semech-blog/about" class="footer-link current">About us</a>
+                                    <a href="/semech-blog/news" class="footer-link">News</a>
+                                    <a href="/semech-blog/authors" class="footer-link">Authors</a>
+                                    <a href="/semech-blog/contact" class="footer-link">Contact us</a>
+                                </div>
+                            </div>
+                            <div class="menu-block">
+                                <div class="menu-title">CATEGORIES</div>
+                                <div>
+                                    <div role="list" class="menu-list ">
+                                        <div role="listitem">
+                                            <a href="#" class="footer-link">Business</a>
+                                        </div>
+                                        <div role="listitem">
+                                            <a href="#" class="footer-link">World News</a>
+                                        </div>
+                                        <div role="listitem">
+                                            <a href="#" class="footer-link">Technology</a>
+                                        </div>
+                                        <div role="listitem">
+                                            <a href="#" class="footer-link">Sports</a>
+                                        </div>
+                                        <div role="listitem">
+                                            <a href="#" class="footer-link">Health</a>
+                                        </div>
+                                        <div role="listitem">
+                                            <a href="#" class="footer-link">Culture</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-block">
+                                <div class="menu-title">RESOURCES</div>
+                                <div class="menu-list">
+                                    <a href="/semech-blog/privacy-policy" class="footer-link">Privacy Policy</a>
+                                    <a href="/semech-blog/advertise" class="footer-link">Advertise</a>
+                                    <a href="/semech-blog/terms-and-conditions" class="footer-link">Terms &amp;
+                                        Conditions</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p class="body-small text-font-color">
+                            Designed by
+                            <a href="#" target="_blank" class="footer-link underline">Macqueen006</a>. Powered by
+                            <a href="#" target="_blank" class="footer-link underline">Magnet</a>.
+                        </p>
+                        <div class="footer-copyright">
+                            <div class="footer-social">
+                                <a href="https://twitter.com/" target="_blank" class="social-icon">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458d7a2287a53a49a62cb8_ic-twitter.svg"
+                                        loading="lazy" alt="Twitter X Icon" />
+                                </a>
+                                <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458d9610f7c34789422f5d_ic-facebook.svg"
+                                        loading="lazy" alt="Facebook Icon" />
+                                </a>
+                                <a href="https://www.youtube.com/" target="_blank" class="social-icon">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458da3661c87c6c9729e5a_ic-youtube.svg"
+                                        loading="lazy" alt="Youtube Icon" />
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank" class="social-icon">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458db10362151aa24dfed3_ic-insta.svg"
+                                        loading="lazy" width="17" alt="Instagram Icon" />
+                                </a>
+                                <a href="https://rss.com/" target="_blank" class="social-icon">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458e7b28a09bbe18f99364_rass.svg"
+                                        loading="lazy" alt="Rss Icon" />
+                                </a>
+                                <a href="https://www.reddit.com/" target="_blank" class="social-icon">
+                                    <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458e06feb49074e11880d0_vector.svg"
+                                        loading="lazy" alt="Discord Icon" />
+                                </a>
+                            </div>
+                            <p class="body-small">© 2025 Semech.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- modal -->
+    <div id="search-home-modal"
+        class="hs-overlay hidden size-full fixed top-0 start-0 z-[10000] overflow-x-hidden overflow-y-auto pointer-events-none"
+        role="dialog" tabindex="-1" aria-labelledby="search-home-modal-label">
+        <div
+            class="hs-overlay-animation-target hs-overlay-open:scale-100 hs-overlay-open:opacity-100 scale-95 opacity-0 ease-in-out transition-all duration-200 sm:max-w-2xl sm:w-full m-3 sm:mx-auto min-h-[calc(100%-56px)] flex items-center">
+            <div
+                class="w-full flex flex-col bg-white border border-gray-200 shadow-2xs rounded-xl relative max-h-[100%] pb-2 pointer-events-auto">
+                <!-- Header -->
+                <div class="p-4 border-b border-gray-200">
+                    <!-- Input -->
+                    <div class="relative">
+                        <div class="ps-3.5 flex items-center z-20 start-0 inset-y-0 absolute pointer-events-none">
+                            <svg class="text-gray-400 shrink-0 size-4 block" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.3-4.3"></path>
+                            </svg>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <div class="grow">
+                                <div class="w-full space-y-3 relative">
+                                    <input type="text"
+                                        class="py-2 sm:py-3 pe-8 ps-10 px-4 block w-full text-body border-gray-200 sm:text-sm focus:border-gray-300 focus:ring-transparent placeholder:opacity-[1] disabled:opacity-50 disabled:pointer-events-none border rounded-lg mb-0"
+                                        placeholder="Search or type a command" autofocus="">
+
+                                    <div class="absolute pe-2 z-20 flex items-center end-0 inset-y-0">
+                                        <div class="flex items-center">
+                                            <button type="button"
+                                                class="hidden text-gray-500 rounded-full justify-center items-center shrink-0 size-[24px] cursor-pointer focus:outline-hidden"
+                                                aria-label="Close">
+                                                <span class="sr-only">Close</span>
+                                                <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg"
+                                                    width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <path d="m15 9-6 6"></path>
+                                                    <path d="m9 9 6 6"></path>
+                                                </svg>
+                                            </button>
+
+                                            <button type="button"
+                                                class="text-white font-medium text-sm bg-secondary/90 rounded-full flex justify-center
+                                                 shrink-0 size-7  cursor-pointer items-center disabled:opacity-50 disabled:pointer-events-none focus:outline-hidden ukj8s">
+                                                <svg class="shrink-0 size-3.5 block" xmlns="http://www.w3.org/2000/svg"
+                                                    width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <path d="M5 12h14"></path>
+                                                    <path d="m12 5 7 7-7 7"></path>
+                                                </svg>
+                                                <span class="sr-only">Search</span>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- End Input -->
+                    <!-- Button Group -->
+                    <div class="mt-3 flex flex-wrap justify-between gap-2 items-center">
+                        <!-- Tag Group -->
+                        <div class="flex flex-wrap gap-2">
+                            <button type="button"
+                                class="px-2.5 py-1.5 inline-flex items-center text-xs bg-gray-100 cursor-pointer rounded-lg focus:outline-hidden hover:text-secondary">
+                                <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20 7h-3a2 2 0 0 1-2-2V2"></path>
+                                    <path d="M9 18a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h7l4 4v10a2 2 0 0 1-2 2Z"></path>
+                                    <path d="M3 7.6v12.8A1.6 1.6 0 0 0 4.6 22h9.8"></path>
+                                </svg>
+                                All 16
+                            </button>
+                            <button type="button"
+                                class="px-2.5 py-1.5 inline-flex items-center text-xs bg-gray-100 cursor-pointer rounded-lg focus:outline-hidden hover:text-secondary">
+                                <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z">
+                                    </path>
+                                    <circle cx="7.5" cy="7.5" r=".5" fill="currentColor"></circle>
+                                </svg>
+                                Tags 2
+                            </button>
+                            <button type="button"
+                                class="px-2.5 py-1.5 inline-flex items-center text-xs bg-gray-100 cursor-pointer rounded-lg focus:outline-hidden hover:text-secondary">
+                                <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2">
+                                    </path>
+                                    <path d="M18 14h-8"></path>
+                                    <path d="M15 18h-5"></path>
+                                    <path d="M10 6h8v4h-8V6Z"></path>
+                                </svg>
+                                Article 8
+                            </button>
+                        </div>
+                        <!-- End Tag Group -->
+                    </div>
+                    <!-- End Button Group -->
 
-                    <div class="hidden min-[767px]:block">
-                        <a href="#" class="nav-btn">Subscribe</a>
-                    </div>
-                    <div class="nav-button">
-                        <!-- set the display to block in the css -->
-                        <div class="top-line"></div>
-                        <div class="middle-line"></div>
-                        <div class="bottom-line"></div>
-                    </div>
                 </div>
-            </div>
+                <!-- End Header -->
+                <!-- Body -->
+                <div class="h-[calc(20rem*1.25)] px-4 py-1.5 overflow-y-auto overflow-hidden">
+                    <!-- List Group -->
+                    <div class="space-y-4">
+                        <div>
+                            <!-- list-group -->
+                            <ul class="-mx-2.5 space-y-0.5">
+                                <!-- List Item -->
+                                <li>
+                                    <a class="px-3 py-2 rounded-lg flex items-center gap-3 focus:outline-hidden hover:bg-gray-100"
+                                        href="#" target="_parent">
+                                        <svg class="shrink-0 text-gray-500 size-4 block"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="11" cy="11" r="8"></circle>
+                                            <path d="m21 21-4.3-4.3"></path>
+                                        </svg>
+                                        <div class="grow">
+                                            <span class="text-sm text-body">
+                                                How to get started
+                                            </span>
+                                        </div>
+                                        <div class="ms-auto">
+                                            <svg class="shrink-0 text-gray-500 size-4 block"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="m9 18 6-6-6-6"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!-- End List Item -->
 
-            <div class="nav-overlay">
-                <nav role="navigation" class="nav-menu">
-                    <a href="/semech-blog/about" class="nav-link">About Us</a>
-                    <a href="/semech-blog/news" class="nav-link">News</a>
-                    <a href="/semech-blog/authors" class="nav-link current">Authors</a>
-                    <a href="/semech-blog/contact" class="nav-link">Contact</a>
-                    <div class="nav-line"></div>
-                    <div class="mobile-show">
-                        <a href="#" class="nav-btn">Subscribe</a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- List Item -->
+                                <li>
+                                    <a class="px-3 py-2 rounded-lg gap-3 flex items-center focus:outline-hidden hover:bg-gray-100"
+                                        href="#" target="_parent">
+                                        <svg class="shrink-0 text-gray-500 size-4 block"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="11" cy="11" r="8"></circle>
+                                            <path d="m21 21-4.3-4.3"></path>
+                                        </svg>
+                                        <div class="grow">
+                                            <span class="text-sm text-body">
+                                                Business Strategy
+                                            </span>
+                                        </div>
+                                        <div class="ms-auto">
+                                            <svg class="shrink-0 text-gray-500 size-4 block"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="m9 18 6-6-6-6"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!-- End List Item -->
 
-<div class="page-wrap">
-    <section class="title-section">
-        <div class="hero-container">
-            <div class="title-wrap">
-                <h1 class="main-title">CONTACT US</h1>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="hero-container">
-            <div class="contact-wrap">
-                <div class="pick-block contact">
-                    <div class="contact-img">
-                        <img
-                                src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d8b0085d7887942f1f359_contact-image.jpg"
-                                loading="eager"
-                                sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 44vw, 36vw"
-                                alt="Contact Image" class="cover-image"
-                        />
-                        <!--                            srcset="contact-image-p-500.jpg 500w, contact-image-p-800.jpg 800w, contact-image.jpg 1048w"-->
-                    </div>
-                    <div class="social-block">
-                        <div class="body-small text-black">Follow me on:</div>
-                        <div class="flex gap-[12px]">
-                            <a href="#" target="_blank" class="social-link">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664c86f1d67ccf45534dc613_ic-twitter.svg"
-                                        loading="lazy" width="17" height="15.11" alt="Twitter Icon"
-                                />
-                            </a>
-                            <a href="https://facebook.com/" target="_blank" class="social-link">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664c86f19024ec9ac4086e95_ic-facebook.svg"
-                                        loading="lazy" width="9.33" height="16" alt="Facebook Icon"
-                                />
-                            </a>
-                            <a href="https://www.youtube.com/" target="_blank" class="social-link">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664c86f00347c5223f1694f0_ic-youtube.svg"
-                                        loading="lazy" width="15.11" height="10.67" alt="Youtube Icon"
-                                />
-                            </a>
-                            <a href="https://www.instagram.com/" target="_blank"
-                               class="social-link">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664c86f1cb8b1a5e675a9b84_ic-insta.svg"
-                                        loading="lazy" width="16.25" height="16.25" alt="Instagram Icon"
-                                />
-                            </a>
-                            <a href="https://rss.com/" target="_blank" class="social-link">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d8c21fa3ce7aa3df0d075_ic-ress.svg"
-                                        loading="lazy" width="16.25" height="16.25" alt="Rss Icon"
-                                />
-                            </a>
-                            <a href="https://www.reddit.com/" target="_blank" class="social-link">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d8c2bfa6a1715c6ab76af_ic-discord.svg"
-                                        loading="lazy" width="16" height="16.25" alt="Social Icon"
-                                />
-                            </a>
+                                <!-- List Item -->
+                                <li>
+                                    <a class="px-3 py-2 rounded-lg flex gap-3 items-center focus:outline-hidden hover:bg-gray-100"
+                                        href="#" target="_parent">
+                                        <svg class="shrink-0 text-gray-500 size-4 block"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="11" cy="11" r="8"></circle>
+                                            <path d="m21 21-4.3-4.3"></path>
+                                        </svg>
+                                        <div class="grow">
+                                            <span class="text-sm text-body">
+                                                Tour guide
+                                            </span>
+                                        </div>
+                                        <div class="ms-auto">
+                                            <svg class="shrink-0 text-gray-500 size-4 block"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="m9 18 6-6-6-6"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!-- End List Item -->
+                            </ul>
+                            <!-- End list-group -->
+                            <p class="mt-1 -ms-1.5">
+                                <a class="text-secondary text-sm py-1 pc-2 gap-1 inline-flex items-center hover:underline decoration-2 focus:outline-hidden"
+                                    href="#" target="_parent">
+                                    3 more results
+                                    <svg class="shrink-0 text-secondary size-4 block" xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="m9 18 6-6-6-6"></path>
+                                    </svg>
+                                </a>
+                            </p>
                         </div>
-                    </div>
-                </div>
-                <div class="contact-wrapper">
-                    <div class="hero-title">
-                        <h5>Get in Touch</h5>
-                        <p>We value your feedback and are always eager to hear from our readers, and partners. Whether
-                            you have a question, or inquiry, getting in touch with us is easy.
-                        </p>
-                    </div>
-                    <div class="contact-forms w-form">
-                        <form method="POST" action="" class="contact-form">
-                            <div class="">
-                                <label for="first-name"></label>
-                                <input class="text-field w-input" name="First-Name" placeholder="First name" type="text"
-                                       id="first-name"/>
-                            </div>
-                            <div class="">
-                                <label for="last-name"></label>
-                                <input class="text-field w-input" name="Last-Name" placeholder="Last name" type="text"
-                                       id="last-name"/>
-                            </div>
-                            <div class="">
-                                <label for="email"></label>
-                                <input class="text-field w-input" name="email" placeholder="Email address" type="email"
-                                       id="email"/>
-                            </div>
-                            <div class="">
-                                <label for="phone"></label>
-                                <input class="text-field w-input" name="Phone" placeholder="Phone number" type="tel"
-                                       id="phone"/>
-                            </div>
-                            <div class="xs:col-span-2">
-                                <label for="Message"></label>
-                                <textarea
-                                        placeholder="Write your message here" maxlength="5000" id="Message"
-                                        name="Message"
-                                        data-name="Message"
-                                        class="text-field min-h-[193px]"></textarea>
-                            </div>
-                            <div class="xs:col-span-2 flex justify-end pt-[5px]">
-                                <input type="submit" data-wait="Please wait..." class="pagination-btn"
-                                    value="Submit"/>
-                            </div>
-                        </form>
-                        <div class="success-message hidden">
-                            <div>Thank you! Your submission has been received!</div>
-                        </div>
-                        <div class="error-message hidden">
-                            <div>Oops! Something went wrong while submitting the form.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="section">
-        <div class="hero-container">
-            <div class="contact-block">
-                <div class="contact-inner">
-                    <div class="contact-left"><h4>General Information</h4></div>
-                    <div class="contact-right">
-                        <div class="hero-title space-large"><p>If you have any questions, feedback, or inquiries, we&#x27;re
-                            here to help. Feel free to reach out to us via the contact information provided below.</p><a
-                                href="mailto:help@Semechnews.com"
-                                class="contact-link color-black">help@Semechnews.com</a></div>
-                        <div class="hero-title space-large"><p>Your feedback helps us improve our services and better
-                            serve our readers.</p><a href="mailto:help@Semechnews.com" class="contact-link color-black">info@Semechnews.com</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-inner">
-                    <div class="contact-left"><h4>Advertising Sales</h4></div>
-                    <div class="contact-right">
-                        <div class="hero-title space-large"><p>For advertising inquiries and partnership opportunities,
-                            please reach out to our advertising sales team using the contact information provided
-                            below.</p><a href="mailto:sales@example.com" class="contact-link color-black">sales@example.com</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-inner">
-                    <div class="contact-left"><h4>Broadcast Operation</h4></div>
-                    <div class="contact-right">
-                        <div class="hero-title space-large"><p>For broadcast inquiries and media partnerships, please
-                            contact our broadcast information team using the information provided below.</p>
-                            <div class="contact-data">
-                                <div class="contact">
-                                    <div class="color-black">Email:</div>
-                                    <a href="mailto:broadcast@example.com"
-                                       class="contact-link">broadcast@example.com</a></div>
-                                <div class="contact">
-                                    <div class="color-black">Phone:</div>
-                                    <a href="tel:(316)555-0116" class="contact-link">(316) 555-0116</a></div>
-                                <div class="contact">
-                                    <div class="color-black">Fax:</div>
-                                    <div>(808) 555-0111</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hero-title">
-                            <div class="color-black">Address:</div>
-                            <div>4517 Washington Ave. <br/>Manchester, Kentucky 39495</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                        <div>
+                            <h4 class="uppercase text-gray-500 text-[11px] mb-1 dark:text-neutral-500">
+                                Tags
+                            </h4>
+                            <!-- List group -->
+                            <ul class="-mx-2.5 space-y-0.5">
+                                <!-- List Item -->
+                                <li>
+                                    <a class="px-3 py-2 text-sm rounded-lg flex items-center gap-3 focus:outline-hidden hover:bg-gray-100"
+                                        href="#" target="_parent">
+                                        <svg class="shrink-0 text-gray-500 size-4 block"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <line x1="4" x2="20" y1="9" y2="9"></line>
+                                            <line x1="4" x2="20" y1="15" y2="15"></line>
+                                            <line x1="10" x2="8" y1="3" y2="21"></line>
+                                            <line x1="16" x2="14" y1="3" y2="21"></line>
+                                        </svg>
+                                        <div class="grow inline-flex gap-2">
+                                            React <span
+                                                class="inline-flex items-center gap-x-2 py-[2px] px-3 rounded-full text-xs font-medium bg-teal-100 text-green-800">Trending</span>
+                                        </div>
+                                        <div class="ms-auto">
+                                            <svg class="shrink-0 text-gray-500 size-4 block"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="m9 18 6-6-6-6"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!-- End Item -->
 
-    <section class="section pt-0">
-        <div class="hero-container">
-            <div>
-                <div class="section-title"><h2>HAVE ANY QUESTIONS?</h2></div>
-                <div class="faq-wrap">
-                    <div class="faq-outer">
-                        <div class="faq">
-                            <div class="question-block">
-                                <div class="faq-top">
-                                    <div class="body-small">01</div>
-                                    <h5 class="faq-question">What services does TechNova provide?</h5></div>
-                                <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d6d5a1002baa1be4524f4_arrow-down.svg"
-                                     loading="lazy" alt="Down Arrow" class="plus-icon"/>
-                            </div>
-                            <nav class="answer-block">
-                                <div class="faq-answer">
-                                    <p>Subscribing to our newsSemech is quick and easy! Simply
-                                        navigate to the homepage of our website and look for the &quot;Subscribe&quot;
-                                        or
-                                        &quot;NewsSemech&quot; section. Enter your email address and click the subscribe
-                                        button. You&#x27;ll start receiving our latest updates and news straight to your
-                                        inbox.
-                                    </p>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="faq">
-                            <div class="question-block">
-                                <div class="faq-top">
-                                    <div class="body-small">02</div>
-                                    <h5 class="faq-question">Can I request permission to use your content?</h5>
-                                </div>
-                                <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d6d5a1002baa1be4524f4_arrow-down.svg"
-                                     loading="lazy" alt="Down Arrow" class="plus-icon"/>
-                            </div>
-                            <nav class="answer-block">
-                                <div class="faq-answer">
-                                    <p>We appreciate your interest in our content. For licensing
-                                        inquiries or requests to use our content, please contact our permissions
-                                        department
-                                        at info@example.com. Be sure to include details about the intended use and
-                                        duration
-                                        of use.
-                                    </p>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="faq">
-                            <div class="question-block">
-                                <div class="faq-top">
-                                    <div class="body-small">03</div>
-                                    <h5 class="faq-question">How can I contact your customer support team?</h5>
-                                </div>
-                                <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d6d5a1002baa1be4524f4_arrow-down.svg"
-                                     loading="lazy" alt="Down Arrow" class="plus-icon"/>
-                            </div>
-                            <nav class="answer-block">
-                                <div class="faq-answer">
-                                    <p>If you have a question or need assistance with any aspect of
-                                        our services, please contact our customer support team at support@Semech.com. We&#x27;re
-                                        here to help and will respond to your inquiry as quickly as possible.
-                                    </p>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="faq">
-                            <div class="question-block">
-                                <div class="faq-top">
-                                    <div class="body-small">04</div>
-                                    <h5 class="faq-question">How can I advertise on your website or broadcast
-                                        platform?</h5>
-                                </div>
-                                <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d6d5a1002baa1be4524f4_arrow-down.svg"
-                                     loading="lazy" alt="Down Arrow" class="plus-icon"/>
-                            </div>
-                            <nav class="answer-block">
-                                <div class="faq-answer">
-                                    <p>We offer various advertising opportunities to suit your
-                                        needs. Please contact our advertising sales team at advertise@Semech.com to
-                                        discuss
-                                        your requirements and explore available options.
-                                    </p>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="faq">
-                            <div class="question-block">
-                                <div class="faq-top">
-                                    <div class="body-small">05</div>
-                                    <h5 class="faq-question">How can I follow your news updates on social media?</h5>
-                                </div>
-                                <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d6d5a1002baa1be4524f4_arrow-down.svg"
-                                     loading="lazy" alt="Down Arrow" class="plus-icon"/>
-                            </div>
-                            <nav class="answer-block">
-                                <div class="faq-answer">
-                                    <p>Stay connected with us on social media for the latest news
-                                        updates, behind-the-scenes content, and more. You can find us on Twitter,
-                                        Facebook,
-                                        Instagram, and LinkedIn.
-                                    </p>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="faq">
-                            <div class="question-block">
-                                <div class="faq-top">
-                                    <div class="body-small">06</div>
-                                    <h5 class="faq-question">How can I report an error or provide feedback on your
-                                        content?</h5>
-                                </div>
-                                <img src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d6d5a1002baa1be4524f4_arrow-down.svg"
-                                     loading="lazy" alt="Down Arrow" class="plus-icon"/>
-                            </div>
-                            <nav class="answer-block">
-                                <div class="faq-answer">
-                                    <p>We strive for accuracy and excellence in our reporting. If
-                                        you spot an error in our content or have feedback to share, please contact our
-                                        editorial team at editor@Semech.com. Your input helps us improve our services
-                                        and
-                                        provide better coverage.
-                                    </p>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                    <!-- Image -->
-                    <div class="faq-img">
-                        <img
-                                src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/664d736504c87173239d9916_faq-image.jpg"
-                                loading="lazy" sizes="(max-width: 767px) 92vw, 46vw"
-                                alt="Faq Image" class="cover-image"
-                        />
-                        <!--                                srcset="faq-image-p-500.jpg 500w, faq-image-p-800.jpg 800w, faq-image.jpg 1072w"-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                                <!-- Item -->
+                                <li>
+                                    <a class="px-3 py-2 rounded-lg flex items-center text-sm gap-3 focus:outline-hidden hover:bg-gray-100"
+                                        href="#" target="_parent">
+                                        <svg class="shrink-0 text-gray-500 size-4 block"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <line x1="4" x2="20" y1="9" y2="9"></line>
+                                            <line x1="4" x2="20" y1="15" y2="15"></line>
+                                            <line x1="10" x2="8" y1="3" y2="21"></line>
+                                            <line x1="16" x2="14" y1="3" y2="21"></line>
+                                        </svg>
+                                        <div class="grow">
+                                            Getting Started with React
+                                        </div>
+                                        <div class="ms-auto">
+                                            <svg class="shrink-0 text-gray-500 size-4 block"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="m9 18 6-6-6-6"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!-- End Item -->
+                            </ul>
+                            <!-- End List group -->
 
-</div>
+                        </div>
+                        <div>
+                            <h4 class="uppercase text-gray-500 text-[11px] mb-1 dark:text-neutral-500">
+                                courses
+                            </h4>
+                            <!-- list-group -->
+                            <ul class="-mx-2.5 space-y-0.5">
+                                <!-- List Item -->
+                                <li>
+                                    <a class="px-3 py-2 rounded-lg flex items-center gap-3 focus:outline-hidden hover:bg-gray-100"
+                                        href="#" target="_parent">
+                                        <svg class="shrink-0 text-gray-500 size-4 block"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="11" cy="11" r="8"></circle>
+                                            <path d="m21 21-4.3-4.3"></path>
+                                        </svg>
+                                        <div class="grow">
+                                            <span class="text-sm text-body">
+                                                How to get started
+                                            </span>
+                                        </div>
+                                        <div class="ms-auto">
+                                            <svg class="shrink-0 text-gray-500 size-4 block"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="m9 18 6-6-6-6"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!-- End List Item -->
 
-<section class="footer">
-    <!-- Marquee -->
-    <div class="footer-slider">
-        <div class="footer-autoscroll">
-            <p class="footer-item">THESEMECHNEWS</p>
-            <p class="footer-item">THESEMECHNEWS</p>
-            <p class="footer-item">THESEMECHNEWS</p>
-            <p class="footer-item">THESEMECHNEWS</p>
-            <p class="footer-item">THESEMECHNEWS</p>
-            <p class="footer-item">THESEMECHNEWS</p>
-            <p class="footer-item">THESEMECHNEWS</p>
-            <p class="footer-item">THESEMECHNEWS</p>
-            <p class="footer-item">THESEMECHNEWS</p>
-            <p class="footer-item">THESEMECHNEWS</p>
-        </div>
-    </div>
-    <!-- End Marquee -->
-    <div class="footer-top">
-        <div class="section-container">
-            <div class="footer-wrap">
-                <div class="footer-block">
-                    <div class="footer-left">
-                        <h5 class="text-white">
-                            Subscribe to our updates for timely information, helpful tips,
-                            and special announcements.
-                        </h5>
-                        <div class="footer-form w-form">
-                            <form method="POST" action="">
-                                <label for="Email-Address" class="mb-[5px]"></label>
-                                <input class="footer-field" name="Email-Address"
-                                       placeholder="Enter your e-mail..." type="email" id="Email-Address"/>
-                                <input type="submit" class="primary-button" value="SUBSCRIBE"/>
-                                <p class="footer-small">
-                                    By subscribing to our newsletter, you agree to and
-                                    acknowledge that you have read our Privacy Policy and
-                                    Terms &amp; Conditions.
-                                </p>
-                            </form>
-                            <div class="success-message hidden">
-                                <div>Thank you! Your submission has been received!</div>
-                            </div>
-                            <div class="error-message hidden">
-                                <div>
-                                    Oops! Something went wrong while submitting the form.
-                                </div>
-                            </div>
+                                <!-- List Item -->
+                                <li>
+                                    <a class="px-3 py-2 rounded-lg gap-3 flex items-center focus:outline-hidden hover:bg-gray-100"
+                                        href="#" target="_parent">
+                                        <svg class="shrink-0 text-gray-500 size-4 block"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="11" cy="11" r="8"></circle>
+                                            <path d="m21 21-4.3-4.3"></path>
+                                        </svg>
+                                        <div class="grow">
+                                            <span class="text-sm text-body">
+                                                Business Strategy
+                                            </span>
+                                        </div>
+                                        <div class="ms-auto">
+                                            <svg class="shrink-0 text-gray-500 size-4 block"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="m9 18 6-6-6-6"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!-- End List Item -->
+
+                                <!-- List Item -->
+                                <li>
+                                    <a class="px-3 py-2 rounded-lg flex gap-3 items-center focus:outline-hidden hover:bg-gray-100"
+                                        href="#" target="_parent">
+                                        <svg class="shrink-0 text-gray-500 size-4 block"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="11" cy="11" r="8"></circle>
+                                            <path d="m21 21-4.3-4.3"></path>
+                                        </svg>
+                                        <div class="grow">
+                                            <span class="text-sm text-body">
+                                                Tour guide
+                                            </span>
+                                        </div>
+                                        <div class="ms-auto">
+                                            <svg class="shrink-0 text-gray-500 size-4 block"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="m9 18 6-6-6-6"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!-- End List Item -->
+                            </ul>
+                            <!-- End list-group -->
+                            <p class="mt-1 -ms-1.5">
+                                <a class="text-secondary text-sm py-1 pc-2 gap-1 inline-flex items-center hover:underline decoration-2 focus:outline-hidden"
+                                    href="#" target="_parent">
+                                    5 more results
+                                    <svg class="shrink-0 text-secondary size-4 block" xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="m9 18 6-6-6-6"></path>
+                                    </svg>
+                                </a>
+                            </p>
                         </div>
                     </div>
-                    <div class="footer-right">
-                        <div class="menu-block">
-                            <div class="menu-title">PAGES</div>
-                            <div class="menu-list">
-                                <a href="/semech-blog/about" class="footer-link current">About us</a>
-                                <a href="/semech-blog/news" class="footer-link">News</a>
-                                <a href="/semech-blog/authors" class="footer-link">Authors</a>
-                                <a href="/semech-blog/contact" class="footer-link">Contact us</a>
-                            </div>
-                        </div>
-                        <div class="menu-block">
-                            <div class="menu-title">CATEGORIES</div>
-                            <div>
-                                <div role="list" class="menu-list ">
-                                    <div role="listitem">
-                                        <a href="#" class="footer-link">Business</a>
-                                    </div>
-                                    <div role="listitem">
-                                        <a href="#" class="footer-link">World News</a>
-                                    </div>
-                                    <div role="listitem">
-                                        <a href="#" class="footer-link">Technology</a>
-                                    </div>
-                                    <div role="listitem">
-                                        <a href="#" class="footer-link">Sports</a>
-                                    </div>
-                                    <div role="listitem">
-                                        <a href="#" class="footer-link">Health</a>
-                                    </div>
-                                    <div role="listitem">
-                                        <a href="#" class="footer-link">Culture</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu-block">
-                            <div class="menu-title">RESOURCES</div>
-                            <div class="menu-list">
-                                <a href="/semech-blog/privacy-policy" class="footer-link">Privacy Policy</a>
-                                <a href="/semech-blog/advertise" class="footer-link">Advertise</a>
-                                <a href="/semech-blog/terms-and-conditions" class="footer-link">Terms &amp; Conditions</a>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- End list Group -->
                 </div>
-                <div class="footer-bottom">
-                    <p class="body-small text-font-color">
-                        Designed by
-                        <a href="#" target="_blank" class="footer-link underline">Macqueen006</a>. Powered by
-                        <a href="#" target="_blank" class="footer-link underline">Magnet</a>.
-                    </p>
-                    <div class="footer-copyright">
-                        <div class="footer-social">
-                            <a href="https://twitter.com/" target="_blank" class="social-icon">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458d7a2287a53a49a62cb8_ic-twitter.svg"
-                                        loading="lazy"
-                                        alt="Twitter X Icon"/>
-                            </a>
-                            <a href="https://www.facebook.com/" target="_blank" class="social-icon">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458d9610f7c34789422f5d_ic-facebook.svg"
-                                        loading="lazy"
-                                        alt="Facebook Icon"/>
-                            </a>
-                            <a href="https://www.youtube.com/" target="_blank" class="social-icon">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458da3661c87c6c9729e5a_ic-youtube.svg"
-                                        loading="lazy"
-                                        alt="Youtube Icon"/>
-                            </a>
-                            <a href="https://www.instagram.com/" target="_blank" class="social-icon">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458db10362151aa24dfed3_ic-insta.svg"
-                                        loading="lazy"
-                                        width="17"
-                                        alt="Instagram Icon"/>
-                            </a>
-                            <a href="https://rss.com/" target="_blank" class="social-icon">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458e7b28a09bbe18f99364_rass.svg"
-                                        loading="lazy"
-                                        alt="Rss Icon"/>
-                            </a>
-                            <a href="https://www.reddit.com/" target="_blank" class="social-icon">
-                                <img
-                                        src="https://cdn.prod.website-files.com/65f28c561f2b91ff16d74d11/66458e06feb49074e11880d0_vector.svg"
-                                        loading="lazy"
-                                        alt="Discord Icon"/>
-                            </a>
-                        </div>
-                        <p class="body-small">© 2025 Semech.</p>
-                    </div>
-                </div>
+                <!-- End Body -->
             </div>
         </div>
     </div>
-</section>
+    <!-- End modal -->
 
-<script type="module" src="./src/assets/js/app.js"></script>
+    <script type="module" src="/src/assets/js/app.js"></script>
+
 </body>
+
 </html>
