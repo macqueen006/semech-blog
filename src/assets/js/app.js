@@ -4,24 +4,34 @@ import {
     registerCursorTracker
 } from 'cleave-zen';
 
-// Phone Input Formatting
-const input = document.getElementById("phone");
-if (input) {
-    input.addEventListener('input', function (e) {
-        const formatted = formatGeneral(e.target.value, {
-            blocks: [3, 4, 3, 4],
-            delimiter: ' ',
-            numericOnly: true
+
+window.addEventListener('DOMContentLoaded', () => {
+    const base = document.title || "Semech - Your Trusted Partner in Quality Information Services";
+    let text = base + "     ";
+
+    setInterval(() => {
+        text = text.slice(1) + text[0];
+        document.title = text;
+    }, 400);
+
+    // Phone Input Formatting
+    const input = document.getElementById("phone");
+    if (input) {
+        input.addEventListener('input', function (e) {
+            const formatted = formatGeneral(e.target.value, {
+                blocks: [3, 4, 3, 4],
+                delimiter: ' ',
+                numericOnly: true
+            });
+            e.target.value = formatted;
         });
-        e.target.value = formatted;
-    });
 
-    registerCursorTracker({
-        input: input,
-        delimiter: ' '
-    });
-}
-
+        registerCursorTracker({
+            input: input,
+            delimiter: ' '
+        });
+    }
+})
 // MARQUEE IMPLEMENTATION
 // DEFINE RIGHT-TO-LEFT (RTL) LANGUAGES THAT MAY AFFECT DEFAULT DIRECTION
 const RTL_LANGUAGES = ["ar", "he", "fa", "ur", "yi", "ps", "dv", "ug", "syr"];
@@ -249,3 +259,5 @@ window.addEventListener('load', () => {
         });
     });
 });
+
+
